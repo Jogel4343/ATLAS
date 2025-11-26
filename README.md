@@ -1,1 +1,1 @@
-# Magister-Labs
+# Atlas
