@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--XBRL document created with Toppan Merrill Bridge  10.5.0.8 -->
+<!--Based on XBRL 2.1-->
+<!--Created on: 3/5/2024 9:20:14 PM-->
+<!--Modified on: 3/5/2024 9:20:14 PM-->
+<xsd:schema targetNamespace="http://oddity.com/20231231" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dei="http://xbrl.sec.gov/dei/2023" xmlns:srt-types="http://fasb.org/srt-types/2023" xmlns:deprecated="http://www.xbrl.org/2009/role/deprecated" xmlns:currency="http://xbrl.sec.gov/currency/2023" xmlns:dtr="http://www.xbrl.org/2009/dtr" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:us-gaap="http://fasb.org/us-gaap/2023" xmlns:utr="http://www.xbrl.org/2009/utr" xmlns:sic="http://xbrl.sec.gov/sic/2023" xmlns:stpr="http://xbrl.sec.gov/stpr/2023" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:country="http://xbrl.sec.gov/country/2023" xmlns:enum2="http://xbrl.org/2020/extensible-enumerations-2.0" xmlns:us-roles="http://fasb.org/us-roles/2023" xmlns:naics="http://xbrl.sec.gov/naics/2023" xmlns:net="http://www.xbrl.org/2009/role/net" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:us-types="http://fasb.org/us-types/2023" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2022-03-31" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:negated="http://www.xbrl.org/2009/role/negated" xmlns:srt="http://fasb.org/srt/2023" xmlns:exch="http://xbrl.sec.gov/exch/2023" xmlns:srt-roles="http://fasb.org/srt-roles/2023" xmlns:attributeFormDefault="unqualified" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:odd="http://oddity.com/20231231">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:roleType roleURI="http://oddity.com/role/StatementConsolidatedBalanceSheets" id="StatementConsolidatedBalanceSheets">
+        <link:definition>00100 - Statement - CONSOLIDATED BALANCE SHEETS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/StatementConsolidatedStatementsOfIncome" id="StatementConsolidatedStatementsOfIncome">
+        <link:definition>00200 - Statement - CONSOLIDATED STATEMENTS OF INCOME</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/StatementConsolidatedStatementsOfComprehensiveIncome" id="StatementConsolidatedStatementsOfComprehensiveIncome">
+        <link:definition>00300 - Statement - CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/StatementConsolidatedStatementsOfCashFlows" id="StatementConsolidatedStatementsOfCashFlows">
+        <link:definition>00500 - Statement - CONSOLIDATED STATEMENTS OF CASH FLOWS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureAcquisitionsScheduleOfPurchasePriceAllocationDetails" id="DisclosureAcquisitionsScheduleOfPurchasePriceAllocationDetails">
+        <link:definition>40302 - Disclosure - ACQUISITIONS - Schedule of purchase price allocation (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureCashAndCashEquivalentsRestrictedCashShortTermDepositsAndMarketableSecuritiesDetails" id="DisclosureCashAndCashEquivalentsRestrictedCashShortTermDepositsAndMarketableSecuritiesDetails">
+        <link:definition>40401 - Disclosure - CASH AND CASH EQUIVALENTS, RESTRICTED CASH, SHORT-TERM DEPOSITS AND MARKETABLE SECURITIES (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureCashAndCashEquivalentsRestrictedCashShortTermDepositsAndMarketableSecuritiesMarketableSecuritiesByContractualMaturitiesDetails" id="DisclosureCashAndCashEquivalentsRestrictedCashShortTermDepositsAndMarketableSecuritiesMarketableSecuritiesByContractualMaturitiesDetails">
+        <link:definition>40402 - Disclosure - CASH AND CASH EQUIVALENTS, RESTRICTED CASH, SHORT-TERM DEPOSITS AND MARKETABLE SECURITIES - Marketable securities by contractual maturities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureFairValueMeasurementDetails" id="DisclosureFairValueMeasurementDetails">
+        <link:definition>40501 - Disclosure - FAIR VALUE MEASUREMENT (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureInventoryDetails" id="DisclosureInventoryDetails">
+        <link:definition>40601 - Disclosure - INVENTORY (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosurePropertyPlantAndEquipmentDetails" id="DisclosurePropertyPlantAndEquipmentDetails">
+        <link:definition>40701 - Disclosure - PROPERTY, PLANT AND EQUIPMENT (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureGoodwillAndOtherIntangibleAssetsNetOtherIntangibleAssetsNetDetails" id="DisclosureGoodwillAndOtherIntangibleAssetsNetOtherIntangibleAssetsNetDetails">
+        <link:definition>40802 - Disclosure - GOODWILL AND OTHER INTANGIBLE ASSETS, NET - Other intangible assets, net (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureGoodwillAndOtherIntangibleAssetsNetFutureAmortizationExpenseDetails" id="DisclosureGoodwillAndOtherIntangibleAssetsNetFutureAmortizationExpenseDetails">
+        <link:definition>40803 - Disclosure - GOODWILL AND OTHER INTANGIBLE ASSETS, NET - Future amortization expense (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureOtherAccountsPayableAndAccruedExpensesDetails" id="DisclosureOtherAccountsPayableAndAccruedExpensesDetails">
+        <link:definition>40901 - Disclosure - OTHER ACCOUNTS PAYABLE AND ACCRUED EXPENSES (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureLeasesFutureMinimumLeasePaymentsUnderNonCancelableOperatingLeaseAgreementsDetailsCalc2" id="DisclosureLeasesFutureMinimumLeasePaymentsUnderNonCancelableOperatingLeaseAgreementsDetailsCalc2">
+        <link:definition>41003 - Disclosure - LEASES - Future minimum lease payments under non-cancelable operating lease agreements (Details)- Calc2</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureLeasesDetails" id="DisclosureLeasesDetails">
+        <link:definition>41201 - Disclosure - LEASES - (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureLeasesFutureMinimumLeasePaymentsUnderNonCancelableOperatingLeaseAgreementsDetails" id="DisclosureLeasesFutureMinimumLeasePaymentsUnderNonCancelableOperatingLeaseAgreementsDetails">
+        <link:definition>41203 - Disclosure - LEASES - Future minimum lease payments under non-cancelable operating lease agreements (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureTaxesOnIncomeDeferredIncomeTaxesDetails" id="DisclosureTaxesOnIncomeDeferredIncomeTaxesDetails">
+        <link:definition>41602 - Disclosure - TAXES ON INCOME - Deferred income taxes (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureTaxesOnIncomeEffectiveTaxRateReconciliationDetails" id="DisclosureTaxesOnIncomeEffectiveTaxRateReconciliationDetails">
+        <link:definition>41603 - Disclosure - TAXES ON INCOME - Effective tax rate reconciliation (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureTaxesOnIncomeIncomeTaxExpenseDetails" id="DisclosureTaxesOnIncomeIncomeTaxExpenseDetails">
+        <link:definition>41604 - Disclosure - TAXES ON INCOME - Income Tax Expense (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DocumentDocumentAndEntityInformation" id="DocumentDocumentAndEntityInformation">
+        <link:definition>00090 - Document - Document and Entity Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/StatementConsolidatedBalanceSheetsParentheticals" id="StatementConsolidatedBalanceSheetsParentheticals">
+        <link:definition>00105 - Statement - CONSOLIDATED BALANCE SHEETS (Parentheticals)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/StatementStatementsOfRedeemableSharesAndShareholdersEquity" id="StatementStatementsOfRedeemableSharesAndShareholdersEquity">
+        <link:definition>00400 - Statement - STATEMENTS OF REDEEMABLE A SHARES AND SHAREHOLDERS' EQUITY</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureGeneralDetails" id="DisclosureGeneralDetails">
+        <link:definition>40101 - Disclosure - GENERAL (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureSignificantAccountingPoliciesDetails" id="DisclosureSignificantAccountingPoliciesDetails">
+        <link:definition>40201 - Disclosure - SIGNIFICANT ACCOUNTING POLICIES (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureSignificantAccountingPoliciesEstimatedUsefulLivesDetails" id="DisclosureSignificantAccountingPoliciesEstimatedUsefulLivesDetails">
+        <link:definition>40202 - Disclosure - SIGNIFICANT ACCOUNTING POLICIES - Estimated Useful Lives (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureSignificantAccountingPoliciesIntangibleAssetsEstimatedUsefulLivesDetails" id="DisclosureSignificantAccountingPoliciesIntangibleAssetsEstimatedUsefulLivesDetails">
+        <link:definition>40203 - Disclosure - SIGNIFICANT ACCOUNTING POLICIES - Intangible Assets Estimated Useful Lives (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureSignificantAccountingPoliciesComprehensiveIncomeDetails" id="DisclosureSignificantAccountingPoliciesComprehensiveIncomeDetails">
+        <link:definition>40204 - Disclosure - SIGNIFICANT ACCOUNTING POLICIES - Comprehensive income (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureAcquisitionsDetails" id="DisclosureAcquisitionsDetails">
+        <link:definition>40301 - Disclosure - ACQUISITIONS (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureCashAndCashEquivalentsRestrictedCashShortTermDepositsAndMarketableSecuritiesAmortizedCostAndFairValueOfMarketableSecuritiesDetails" id="DisclosureCashAndCashEquivalentsRestrictedCashShortTermDepositsAndMarketableSecuritiesAmortizedCostAndFairValueOfMarketableSecuritiesDetails">
+        <link:definition>40403 - Disclosure - CASH AND CASH EQUIVALENTS, RESTRICTED CASH, SHORT-TERM DEPOSITS AND MARKETABLE SECURITIES - Amortized cost and fair value of marketable securities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureCashAndCashEquivalentsRestrictedCashShortTermDepositsAndMarketableSecuritiesAdditionalInformationDetails" id="DisclosureCashAndCashEquivalentsRestrictedCashShortTermDepositsAndMarketableSecuritiesAdditionalInformationDetails">
+        <link:definition>40404 - Disclosure - CASH AND CASH EQUIVALENTS, RESTRICTED CASH, SHORT-TERM DEPOSITS AND MARKETABLE SECURITIES - Additional information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureLoansDetails" id="DisclosureLoansDetails">
+        <link:definition>41001 - Disclosure - LOANS (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureShareholdersEquityNarrativesDetails" id="DisclosureShareholdersEquityNarrativesDetails">
+        <link:definition>41301 - Disclosure - SHAREHOLDERS' EQUITY - Narratives (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureShareholdersEquityScheduleOfCompanySStockOptionActivityDetails" id="DisclosureShareholdersEquityScheduleOfCompanySStockOptionActivityDetails">
+        <link:definition>41302 - Disclosure - SHAREHOLDERS' EQUITY - Schedule of company's stock option activity (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureShareholdersEquityScheduleOfWeightedAverageAssumptionsDetails" id="DisclosureShareholdersEquityScheduleOfWeightedAverageAssumptionsDetails">
+        <link:definition>41303 - Disclosure - SHAREHOLDERS' EQUITY - Schedule of weighted average assumptions (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureShareholdersEquityScheduleOfUnvestedRsusDetails" id="DisclosureShareholdersEquityScheduleOfUnvestedRsusDetails">
+        <link:definition>41304 - Disclosure - SHAREHOLDERS' EQUITY - Schedule of Unvested RSUs (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureEarningsPerShareAdditionalInformationDetails" id="DisclosureEarningsPerShareAdditionalInformationDetails">
+        <link:definition>41401 - Disclosure - EARNINGS PER SHARE - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureEarningsPerShareComputationOfBasicAndDilutedEarningsPerShareDetails" id="DisclosureEarningsPerShareComputationOfBasicAndDilutedEarningsPerShareDetails">
+        <link:definition>41402 - Disclosure - EARNINGS PER SHARE - Computation of basic and diluted earnings per share (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureGeographicalInformationRevenueFromCustomersDetails" id="DisclosureGeographicalInformationRevenueFromCustomersDetails">
+        <link:definition>41501 - Disclosure - GEOGRAPHICAL INFORMATION - Revenue from customers (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureGeographicalInformationLongLivedAssetsDetails" id="DisclosureGeographicalInformationLongLivedAssetsDetails">
+        <link:definition>41502 - Disclosure - GEOGRAPHICAL INFORMATION - Long-lived assets (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureTaxesOnIncomeNarrativesDetails" id="DisclosureTaxesOnIncomeNarrativesDetails">
+        <link:definition>41601 - Disclosure - TAXES ON INCOME - Narratives (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureRelatedPartyTransactionsDetails" id="DisclosureRelatedPartyTransactionsDetails">
+        <link:definition>41701 - Disclosure - RELATED PARTY TRANSACTIONS (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureDigitalSecuritiesDetails" id="DisclosureDigitalSecuritiesDetails">
+        <link:definition>41801 - Disclosure - DIGITAL SECURITIES (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureSubsequentEventsDetails" id="DisclosureSubsequentEventsDetails">
+        <link:definition>41901 - Disclosure - SUBSEQUENT EVENTS (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureGeneral" id="DisclosureGeneral">
+        <link:definition>10101 - Disclosure - GENERAL</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureSignificantAccountingPolicies" id="DisclosureSignificantAccountingPolicies">
+        <link:definition>10201 - Disclosure - SIGNIFICANT ACCOUNTING POLICIES</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureAcquisitions" id="DisclosureAcquisitions">
+        <link:definition>10301 - Disclosure - ACQUISITIONS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureCashAndCashEquivalentsRestrictedCashShortTermDepositsAndMarketableSecurities" id="DisclosureCashAndCashEquivalentsRestrictedCashShortTermDepositsAndMarketableSecurities">
+        <link:definition>10401 - Disclosure - CASH AND CASH EQUIVALENTS, RESTRICTED CASH, SHORT-TERM DEPOSITS AND MARKETABLE SECURITIES</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureFairValueMeasurement" id="DisclosureFairValueMeasurement">
+        <link:definition>10501 - Disclosure - FAIR VALUE MEASUREMENT</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureInventory" id="DisclosureInventory">
+        <link:definition>10601 - Disclosure - INVENTORY</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosurePropertyPlantAndEquipment" id="DisclosurePropertyPlantAndEquipment">
+        <link:definition>10701 - Disclosure - PROPERTY, PLANT AND EQUIPMENT</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureGoodwillAndOtherIntangibleAssetsNet" id="DisclosureGoodwillAndOtherIntangibleAssetsNet">
+        <link:definition>10801 - Disclosure - GOODWILL AND OTHER INTANGIBLE ASSETS, NET</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureOtherAccountsPayableAndAccruedExpenses" id="DisclosureOtherAccountsPayableAndAccruedExpenses">
+        <link:definition>10901 - Disclosure - OTHER ACCOUNTS PAYABLE AND ACCRUED EXPENSES</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureLoans" id="DisclosureLoans">
+        <link:definition>11001 - Disclosure - LOANS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureContingencies" id="DisclosureContingencies">
+        <link:definition>11101 - Disclosure - CONTINGENCIES</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureLeases" id="DisclosureLeases">
+        <link:definition>11201 - Disclosure - LEASES</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureShareholdersEquity" id="DisclosureShareholdersEquity">
+        <link:definition>11301 - Disclosure - SHAREHOLDERS' EQUITY</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureEarningsPerShare" id="DisclosureEarningsPerShare">
+        <link:definition>11401 - Disclosure - EARNINGS PER SHARE</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureGeographicalInformation" id="DisclosureGeographicalInformation">
+        <link:definition>11501 - Disclosure - GEOGRAPHICAL INFORMATION</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureTaxesOnIncome" id="DisclosureTaxesOnIncome">
+        <link:definition>11601 - Disclosure - TAXES ON INCOME</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureRelatedPartyTransactions" id="DisclosureRelatedPartyTransactions">
+        <link:definition>11701 - Disclosure - RELATED PARTY TRANSACTIONS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureDigitalSecurities" id="DisclosureDigitalSecurities">
+        <link:definition>11801 - Disclosure - DIGITAL SECURITIES</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureSubsequentEvents" id="DisclosureSubsequentEvents">
+        <link:definition>11901 - Disclosure - SUBSEQUENT EVENTS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureSignificantAccountingPoliciesPolicies" id="DisclosureSignificantAccountingPoliciesPolicies">
+        <link:definition>20202 - Disclosure - SIGNIFICANT ACCOUNTING POLICIES (Policies)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureSignificantAccountingPoliciesTables" id="DisclosureSignificantAccountingPoliciesTables">
+        <link:definition>30203 - Disclosure - SIGNIFICANT ACCOUNTING POLICIES (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureAcquisitionsTables" id="DisclosureAcquisitionsTables">
+        <link:definition>30303 - Disclosure - ACQUISITIONS (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureCashAndCashEquivalentsRestrictedCashShortTermDepositsAndMarketableSecuritiesTables" id="DisclosureCashAndCashEquivalentsRestrictedCashShortTermDepositsAndMarketableSecuritiesTables">
+        <link:definition>30403 - Disclosure - CASH AND CASH EQUIVALENTS, RESTRICTED CASH, SHORT-TERM DEPOSITS AND MARKETABLE SECURITIES (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureFairValueMeasurementTables" id="DisclosureFairValueMeasurementTables">
+        <link:definition>30503 - Disclosure - FAIR VALUE MEASUREMENT (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureInventoryTables" id="DisclosureInventoryTables">
+        <link:definition>30603 - Disclosure - INVENTORY (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosurePropertyPlantAndEquipmentTables" id="DisclosurePropertyPlantAndEquipmentTables">
+        <link:definition>30703 - Disclosure - PROPERTY, PLANT AND EQUIPMENT (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureGoodwillAndOtherIntangibleAssetsNetTables" id="DisclosureGoodwillAndOtherIntangibleAssetsNetTables">
+        <link:definition>30803 - Disclosure - GOODWILL AND OTHER INTANGIBLE ASSETS, NET (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureOtherAccountsPayableAndAccruedExpensesTables" id="DisclosureOtherAccountsPayableAndAccruedExpensesTables">
+        <link:definition>30903 - Disclosure - OTHER ACCOUNTS PAYABLE AND ACCRUED EXPENSES (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureLeasesTables" id="DisclosureLeasesTables">
+        <link:definition>31203 - Disclosure - LEASES (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureShareholdersEquityTables" id="DisclosureShareholdersEquityTables">
+        <link:definition>31303 - Disclosure - SHAREHOLDERS' EQUITY (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureEarningsPerShareTables" id="DisclosureEarningsPerShareTables">
+        <link:definition>31403 - Disclosure - EARNINGS PER SHARE (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureGeographicalInformationTables" id="DisclosureGeographicalInformationTables">
+        <link:definition>31503 - Disclosure - GEOGRAPHICAL INFORMATION (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureTaxesOnIncomeTables" id="DisclosureTaxesOnIncomeTables">
+        <link:definition>31603 - Disclosure - TAXES ON INCOME (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureGoodwillAndOtherIntangibleAssetsNetGoodwillDetails" id="DisclosureGoodwillAndOtherIntangibleAssetsNetGoodwillDetails">
+        <link:definition>40801 - Disclosure - GOODWILL AND OTHER INTANGIBLE ASSETS, NET - Goodwill (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureLeasesSupplementalBalanceSheetInformationRelatedToOperatingLeasesDetails" id="DisclosureLeasesSupplementalBalanceSheetInformationRelatedToOperatingLeasesDetails">
+        <link:definition>41202 - Disclosure - LEASES - Supplemental balance sheet information related to operating leases (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://oddity.com/role/DisclosureTaxesOnIncomeUnrecognizedTaxBenefitsDetails" id="DisclosureTaxesOnIncomeUnrecognizedTaxBenefitsDetails">
+        <link:definition>41605 - Disclosure - TAXES ON INCOME - Unrecognized tax benefits (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:linkbaseRef xlink:type="simple" xlink:href="tmb-20231231_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="tmb-20231231_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="tmb-20231231_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="tmb-20231231_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:roleType roleURI="http://oddity.com/role/DisclosureStandardAndCustomAxisDomainDefaults" id="DisclosureStandardAndCustomAxisDomainDefaults">
+        <link:definition>99900 - Disclosure - Standard And Custom Axis Domain Defaults</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://fasb.org/srt/2023" schemaLocation="https://xbrl.fasb.org/srt/2023/elts/srt-2023.xsd" />
+  <xsd:import namespace="http://fasb.org/us-gaap/2023" schemaLocation="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd" />
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <xsd:import namespace="http://www.xbrl.org/2009/role/negated" schemaLocation="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd" />
+  <xsd:import namespace="http://www.xbrl.org/dtr/type/2022-03-31" schemaLocation="https://www.xbrl.org/dtr/type/2022-03-31/types.xsd" />
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd" />
+  <xsd:import namespace="http://xbrl.sec.gov/country/2023" schemaLocation="https://xbrl.sec.gov/country/2023/country-2023.xsd" />
+  <xsd:import namespace="http://xbrl.sec.gov/dei/2023" schemaLocation="https://xbrl.sec.gov/dei/2023/dei-2023.xsd" />
+  <xsd:element name="DigitalSecuritiesLiability" id="odd_DigitalSecuritiesLiability" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="false" xbrli:balance="credit" />
+  <xsd:element name="FinancialExpenseIncome" id="odd_FinancialExpenseIncome" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" xbrli:balance="debit" />
+  <xsd:element name="RedeemableSharesMember" id="odd_RedeemableSharesMember" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="true" />
+  <xsd:element name="StockIssuedDuringPeriodValueStockOptionsExercisedAndVesting" id="odd_StockIssuedDuringPeriodValueStockOptionsExercisedAndVesting" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" xbrli:balance="credit" />
+  <xsd:element name="StockIssuedDuringPeriodSharesStockOptionsExercisedAndVesting" id="odd_StockIssuedDuringPeriodSharesStockOptionsExercisedAndVesting" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="IncreaseInPrepaidExpensesAndOtherReceivables" id="odd_IncreaseInPrepaidExpensesAndOtherReceivables" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" xbrli:balance="credit" />
+  <xsd:element name="IncreaseDecreaseInOperatingLeaseAsset" id="odd_IncreaseDecreaseInOperatingLeaseAsset" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" xbrli:balance="debit" />
+  <xsd:element name="PaymentsOfLoanToShareholder" id="odd_PaymentsOfLoanToShareholder" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" xbrli:balance="credit" />
+  <xsd:element name="ProceedsFromRepaymentOfLoanToShareholder" id="odd_ProceedsFromRepaymentOfLoanToShareholder" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" xbrli:balance="debit" />
+  <xsd:element name="ProceedsFromIssuanceOfDigitalSecurities" id="odd_ProceedsFromIssuanceOfDigitalSecurities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" xbrli:balance="debit" />
+  <xsd:element name="NonCashActivityOfCompensationCapitalizedAsPartOfCapitalizationOfSoftwareDevelopmentCosts" id="odd_NonCashActivityOfCompensationCapitalizedAsPartOfCapitalizationOfSoftwareDevelopmentCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" xbrli:balance="debit" />
+  <xsd:element name="NonCashActivityOfLeaseLiabilitiesArisingFromObtainingRightOfUseAssets" id="odd_NonCashActivityOfLeaseLiabilitiesArisingFromObtainingRightOfUseAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" xbrli:balance="credit" />
+  <xsd:element name="PayableToGovernmentAuthoritiesCurrent" id="odd_PayableToGovernmentAuthoritiesCurrent" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="false" xbrli:balance="credit" />
+  <xsd:element name="CreditLineAgreement2016Member" id="odd_CreditLineAgreement2016Member" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="true" />
+  <xsd:element name="BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedTangibleAssets" id="odd_BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedTangibleAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="false" xbrli:balance="debit" />
+  <xsd:element name="ScheduleOfSupplementalBalanceSheetInformationRelatedToOperatingLeasesTableTextBlock" id="odd_ScheduleOfSupplementalBalanceSheetInformationRelatedToOperatingLeasesTableTextBlock" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="OfficeSpacesAndStoresAndMotorVehiclesMember" id="odd_OfficeSpacesAndStoresAndMotorVehiclesMember" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="true" />
+  <xsd:element name="ScheduleOfEarningPerShareBasicDilutedByCommonClassIncludingTwoClassMethodTable" id="odd_ScheduleOfEarningPerShareBasicDilutedByCommonClassIncludingTwoClassMethodTable" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" nillable="true" xbrli:periodType="duration" abstract="true" />
+  <xsd:element name="EarningPerShareBasicDilutedByCommonClassIncludingTwoClassMethodLineItems" id="odd_EarningPerShareBasicDilutedByCommonClassIncludingTwoClassMethodLineItems" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="true" />
+  <xsd:element name="RedeemableaSharesMember" id="odd_RedeemableaSharesMember" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="true" />
+  <xsd:element name="TemporaryEquityStockIssuedDuringPeriodSharesNewIssues" id="odd_TemporaryEquityStockIssuedDuringPeriodSharesNewIssues" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="BasisOfAccountingAndConsolidationPolicyPolicyTextBlock" id="odd_BasisOfAccountingAndConsolidationPolicyPolicyTextBlock" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="FunctionalCurrencyPolicyTextBlock" id="odd_FunctionalCurrencyPolicyTextBlock" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="ShortTermBankDepositsPolicyTextBlock" id="odd_ShortTermBankDepositsPolicyTextBlock" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="DigitalSecuritiesPolicyTextBlock" id="odd_DigitalSecuritiesPolicyTextBlock" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="SeverancePayPolicyPolicyTextBlock" id="odd_SeverancePayPolicyPolicyTextBlock" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="CostOfRevenuePolicyTextBlock" id="odd_CostOfRevenuePolicyTextBlock" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="OperatingExpensesPolicyTextBlock" id="odd_OperatingExpensesPolicyTextBlock" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="ScheduleOfPropertyPlantAndEquipmentEstimatedUsefulLivesTableTextBlock" id="odd_ScheduleOfPropertyPlantAndEquipmentEstimatedUsefulLivesTableTextBlock" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="TechnologyMember" id="odd_TechnologyMember" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="true" />
+  <xsd:element name="CapitalizationOfInternallyGeneratedIntangibleAssets" id="odd_CapitalizationOfInternallyGeneratedIntangibleAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="false" xbrli:balance="debit" />
+  <xsd:element name="FinancialInstrumentConversionToCommonStockConversionPricePercentage" id="odd_FinancialInstrumentConversionToCommonStockConversionPricePercentage" type="dtr-types:percentItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="FinancialInstrumentsSecuritiesIssuedDuringPeriod" id="odd_FinancialInstrumentsSecuritiesIssuedDuringPeriod" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="false" />
+  <xsd:element name="FinancialInstrumentPurchasePricePerSecurity" id="odd_FinancialInstrumentPurchasePricePerSecurity" type="dtr-types:perShareItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="DigitalSecuritiesMember" id="odd_DigitalSecuritiesMember" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="true" />
+  <xsd:element name="RevelaincMember" id="odd_RevelaincMember" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="true" />
+  <xsd:element name="GeographicalInformationTextBlock" id="odd_GeographicalInformationTextBlock" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="OtherCountriesMember" id="odd_OtherCountriesMember" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="true" />
+  <xsd:element name="PercentageOfMonthlySalary" id="odd_PercentageOfMonthlySalary" type="dtr-types:percentItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="false" />
+  <xsd:element name="DeferredTaxAssetsTaxDeferredExpenseDepreciationAndAmortization" id="odd_DeferredTaxAssetsTaxDeferredExpenseDepreciationAndAmortization" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="false" xbrli:balance="debit" />
+  <xsd:element name="DeferredTaxAssetsEmployeesAndOtherAccruals" id="odd_DeferredTaxAssetsEmployeesAndOtherAccruals" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="false" xbrli:balance="debit" />
+  <xsd:element name="DeferredTaxAssetsOperatingLeaseLiabilities" id="odd_DeferredTaxAssetsOperatingLeaseLiabilities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="false" xbrli:balance="debit" />
+  <xsd:element name="DeferredTaxLiabilitiesOperatingLeaseRightOfUseAssets" id="odd_DeferredTaxLiabilitiesOperatingLeaseRightOfUseAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="false" xbrli:balance="credit" />
+  <xsd:element name="EffectiveIncomeTaxReconciliationForeignCurrencyMeasurementDifferences" id="odd_EffectiveIncomeTaxReconciliationForeignCurrencyMeasurementDifferences" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" xbrli:balance="credit" />
+  <xsd:element name="EffectiveIncomeTaxReconciliationPreferredEnterpriseTax" id="odd_EffectiveIncomeTaxReconciliationPreferredEnterpriseTax" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" xbrli:balance="credit" />
+  <xsd:element name="EffectiveIncomeTaxReconciliationSubsidiariesTaxedAtDifferentRate" id="odd_EffectiveIncomeTaxReconciliationSubsidiariesTaxedAtDifferentRate" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" xbrli:balance="debit" />
+  <xsd:element name="EffectiveIncomeTaxReconciliationUncertainTaxPositions" id="odd_EffectiveIncomeTaxReconciliationUncertainTaxPositions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" xbrli:balance="debit" />
+  <xsd:element name="EarningsPerShareBasicEffectOfTaxBenefits" id="odd_EarningsPerShareBasicEffectOfTaxBenefits" type="dtr-types:perShareItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="EarningsPerShareDilutedEffectOfTaxBenefits" id="odd_EarningsPerShareDilutedEffectOfTaxBenefits" type="dtr-types:perShareItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="CoFounderAndChiefExecutiveOfficerMember" id="odd_CoFounderAndChiefExecutiveOfficerMember" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="true" />
+  <xsd:element name="ChiefProductOfficerMember" id="odd_ChiefProductOfficerMember" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="true" />
+  <xsd:element name="IncentivePlanMember" id="odd_IncentivePlanMember" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="true" />
+  <xsd:element name="RelatedPartyTransactionMaximumEligibleIncentiveAmount" id="odd_RelatedPartyTransactionMaximumEligibleIncentiveAmount" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" xbrli:balance="debit" />
+  <xsd:element name="TwentyTwentyEquityIncentivePlanMember" id="odd_TwentyTwentyEquityIncentivePlanMember" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="true" />
+  <xsd:element name="CommonStockNumberOfClasses" id="odd_CommonStockNumberOfClasses" type="xbrli:integerItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="CommonStockRatioToIssueDualClassOfShareForSingleClassSharePostDualClassification" id="odd_CommonStockRatioToIssueDualClassOfShareForSingleClassSharePostDualClassification" type="xbrli:pureItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="CommonStockNumberOfDualClassSharesForEachSingleClassSharePostDualClassification" id="odd_CommonStockNumberOfDualClassSharesForEachSingleClassSharePostDualClassification" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="TemporaryEquityAdditionalSharesRatioPostDualClassification" id="odd_TemporaryEquityAdditionalSharesRatioPostDualClassification" type="xbrli:pureItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="CommonStockNumberOfVotesPerShare" id="odd_CommonStockNumberOfVotesPerShare" type="xbrli:integerItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="TemporaryEquityAggregateRedemptionValue" id="odd_TemporaryEquityAggregateRedemptionValue" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" xbrli:balance="debit" />
+  <xsd:element name="ScheduleOfTaxesOnIncomeTable" id="odd_ScheduleOfTaxesOnIncomeTable" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" nillable="true" xbrli:periodType="duration" abstract="true" />
+  <xsd:element name="TaxesOnIncomeLineItems" id="odd_TaxesOnIncomeLineItems" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="true" />
+  <xsd:element name="ThresholdPercentageOfAnnualIncomeToBeDerivedFromExportsForLowerTaxRate" id="odd_ThresholdPercentageOfAnnualIncomeToBeDerivedFromExportsForLowerTaxRate" type="dtr-types:percentItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="WithholdingTaxRateForDividendPaidPercent" id="odd_WithholdingTaxRateForDividendPaidPercent" type="dtr-types:percentItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="WithholdingTaxRateForDividendPaidToForeignResidentCompanyPercent" id="odd_WithholdingTaxRateForDividendPaidToForeignResidentCompanyPercent" type="dtr-types:percentItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="ScheduleOfFinancialInstrumentDigitalSecurityTable" id="odd_ScheduleOfFinancialInstrumentDigitalSecurityTable" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" nillable="true" xbrli:periodType="duration" abstract="true" />
+  <xsd:element name="FinancialInstrumentDigitalSecurityDisclosureInformationLineItems" id="odd_FinancialInstrumentDigitalSecurityDisclosureInformationLineItems" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="true" />
+  <xsd:element name="RestrictedClassOrdinarySharesMember" id="odd_RestrictedClassOrdinarySharesMember" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="true" />
+  <xsd:element name="CashFairValueDisclosure" id="odd_CashFairValueDisclosure" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="false" xbrli:balance="debit" />
+  <xsd:element name="RestrictedCashFairValueDisclosure" id="odd_RestrictedCashFairValueDisclosure" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="false" xbrli:balance="debit" />
+  <xsd:element name="MoneyMarketFundsFairValueDisclosure" id="odd_MoneyMarketFundsFairValueDisclosure" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="false" xbrli:balance="debit" />
+  <xsd:element name="ShortTermDepositsFairValueDisclosure" id="odd_ShortTermDepositsFairValueDisclosure" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="false" xbrli:balance="debit" />
+  <xsd:element name="ShortTermBankDepositsFairValueDisclosure" id="odd_ShortTermBankDepositsFairValueDisclosure" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="false" xbrli:balance="debit" />
+  <xsd:element name="MarketableSecuritiesFairValueDisclosure" id="odd_MarketableSecuritiesFairValueDisclosure" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="false" xbrli:balance="debit" />
+  <xsd:element name="NumberOfCreditAgreements" id="odd_NumberOfCreditAgreements" type="xbrli:integerItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="NumberOfBanksAgreementsEnteredWith" id="odd_NumberOfBanksAgreementsEnteredWith" type="xbrli:integerItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="ReclassificationsOfTemporaryToPermanentEquityShares" id="odd_ReclassificationsOfTemporaryToPermanentEquityShares" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="IncentiveAwardPlan2023Member" id="odd_IncentiveAwardPlan2023Member" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="true" />
+  <xsd:element name="EmployeeSharePurchasePlan2023Member" id="odd_EmployeeSharePurchasePlan2023Member" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="true" />
+  <xsd:element name="UnrecognizedTaxBenefitNetFromDeferredTaxAssets" id="odd_UnrecognizedTaxBenefitNetFromDeferredTaxAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="false" xbrli:balance="credit" />
+  <xsd:element name="MatchingContributionOfParticipantCompetition" id="odd_MatchingContributionOfParticipantCompetition" type="dtr-types:percentItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="OrganizationConsolidationAndPresentationOfFinancialStatementsTable" id="odd_OrganizationConsolidationAndPresentationOfFinancialStatementsTable" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" nillable="true" xbrli:periodType="duration" abstract="true" />
+  <xsd:element name="OrganizationConsolidationAndPresentationOfFinancialStatementsLineItems" id="odd_OrganizationConsolidationAndPresentationOfFinancialStatementsLineItems" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="true" />
+  <xsd:element name="OfferingCostsAccruedAndNotPaidYet" id="odd_OfferingCostsAccruedAndNotPaidYet" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" xbrli:balance="credit" />
+  <xsd:element name="IssuanceOfSharesInConnectionWithBusinessCombination" id="odd_IssuanceOfSharesInConnectionWithBusinessCombination" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" xbrli:balance="debit" />
+  <xsd:element name="StockIssuedDuringPeriodSharesRestrictedStockUnitsVested" id="odd_StockIssuedDuringPeriodSharesRestrictedStockUnitsVested" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="StockholdersEquityNoteBonusShareSplitConversionRatio" id="odd_StockholdersEquityNoteBonusShareSplitConversionRatio" type="xbrli:pureItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsSubjectToMarketConditionsGrantsInPeriod" id="odd_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsSubjectToMarketConditionsGrantsInPeriod" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="false" />
+  <xsd:element name="IncentiveAwardPlan2020And2023Member" id="odd_IncentiveAwardPlan2020And2023Member" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" abstract="true" />
+</xsd:schema>

@@ -1,0 +1,1009 @@
+<?xml version='1.0' encoding='utf-8'?>
+<FilingSummary>
+  <Version>3.20.4</Version>
+  <ProcessingTime/>
+  <ReportFormat>html</ReportFormat>
+  <ContextCount>296</ContextCount>
+  <ElementCount>514</ElementCount>
+  <EntityCount>1</EntityCount>
+  <FootnotesReported>false</FootnotesReported>
+  <SegmentCount>100</SegmentCount>
+  <ScenarioCount>0</ScenarioCount>
+  <TuplesReported>false</TuplesReported>
+  <UnitCount>6</UnitCount>
+  <MyReports>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R1.htm</HtmlFileName>
+      <LongName>0001001 - Document - Cover Page</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/CoverPage</Role>
+      <ShortName>Cover Page</ShortName>
+      <MenuCategory>Cover</MenuCategory>
+      <Position>1</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R2.htm</HtmlFileName>
+      <LongName>1001002 - Statement - CONSOLIDATED STATEMENTS OF INCOME</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/CONSOLIDATEDSTATEMENTSOFINCOME</Role>
+      <ShortName>CONSOLIDATED STATEMENTS OF INCOME</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>2</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R3.htm</HtmlFileName>
+      <LongName>1002003 - Statement - CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/CONSOLIDATEDSTATEMENTSOFCOMPREHENSIVEINCOME</Role>
+      <ShortName>CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>3</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R4.htm</HtmlFileName>
+      <LongName>1003004 - Statement - CONSOLIDATED BALANCE SHEETS</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/CONSOLIDATEDBALANCESHEETS</Role>
+      <ShortName>CONSOLIDATED BALANCE SHEETS</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>4</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R5.htm</HtmlFileName>
+      <LongName>1004005 - Statement - CONSOLIDATED BALANCE SHEETS (Parenthetical)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/CONSOLIDATEDBALANCESHEETSParenthetical</Role>
+      <ShortName>CONSOLIDATED BALANCE SHEETS (Parenthetical)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>5</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R6.htm</HtmlFileName>
+      <LongName>1005006 - Statement - CONSOLIDATED STATEMENTS OF SHAREHOLDERS' EQUITY</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/CONSOLIDATEDSTATEMENTSOFSHAREHOLDERSEQUITY</Role>
+      <ShortName>CONSOLIDATED STATEMENTS OF SHAREHOLDERS' EQUITY</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>6</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R7.htm</HtmlFileName>
+      <LongName>1006007 - Statement - CONSOLIDATED STATEMENTS OF SHAREHOLDERS' EQUITY (Parenthetical)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/CONSOLIDATEDSTATEMENTSOFSHAREHOLDERSEQUITYParenthetical</Role>
+      <ShortName>CONSOLIDATED STATEMENTS OF SHAREHOLDERS' EQUITY (Parenthetical)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>7</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R8.htm</HtmlFileName>
+      <LongName>1007008 - Statement - CONSOLIDATED STATEMENTS OF CASH FLOWS</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/CONSOLIDATEDSTATEMENTSOFCASHFLOWS</Role>
+      <ShortName>CONSOLIDATED STATEMENTS OF CASH FLOWS</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>8</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R9.htm</HtmlFileName>
+      <LongName>2101101 - Disclosure - Organization and Summary of Significant Accounting Policies</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/OrganizationandSummaryofSignificantAccountingPolicies</Role>
+      <ShortName>Organization and Summary of Significant Accounting Policies</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>9</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R10.htm</HtmlFileName>
+      <LongName>2104102 - Disclosure - Business Combination</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/BusinessCombination</Role>
+      <ShortName>Business Combination</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>10</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R11.htm</HtmlFileName>
+      <LongName>2111103 - Disclosure - Leases</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/Leases</Role>
+      <ShortName>Leases</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>11</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R12.htm</HtmlFileName>
+      <LongName>2116104 - Disclosure - Stock-Based Compensation</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/StockBasedCompensation</Role>
+      <ShortName>Stock-Based Compensation</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>12</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R13.htm</HtmlFileName>
+      <LongName>2122105 - Disclosure - Net Income Per Share</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/NetIncomePerShare</Role>
+      <ShortName>Net Income Per Share</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>13</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R14.htm</HtmlFileName>
+      <LongName>2125106 - Disclosure - Goodwill</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/Goodwill</Role>
+      <ShortName>Goodwill</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>14</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R15.htm</HtmlFileName>
+      <LongName>2127107 - Disclosure - Amortizable Intangible Assets</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/AmortizableIntangibleAssets</Role>
+      <ShortName>Amortizable Intangible Assets</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>15</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R16.htm</HtmlFileName>
+      <LongName>2130108 - Disclosure - Cash Equivalents and Marketable Securities</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/CashEquivalentsandMarketableSecurities</Role>
+      <ShortName>Cash Equivalents and Marketable Securities</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>16</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R17.htm</HtmlFileName>
+      <LongName>2134109 - Disclosure - Fair Value of Financial Assets and Liabilities</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/FairValueofFinancialAssetsandLiabilities</Role>
+      <ShortName>Fair Value of Financial Assets and Liabilities</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>17</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R18.htm</HtmlFileName>
+      <LongName>2137110 - Disclosure - Balance Sheet Components</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/BalanceSheetComponents</Role>
+      <ShortName>Balance Sheet Components</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>18</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R19.htm</HtmlFileName>
+      <LongName>2147111 - Disclosure - Derivative Financial Instruments</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/DerivativeFinancialInstruments</Role>
+      <ShortName>Derivative Financial Instruments</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>19</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R20.htm</HtmlFileName>
+      <LongName>2151112 - Disclosure - Debt</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/Debt</Role>
+      <ShortName>Debt</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>20</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R21.htm</HtmlFileName>
+      <LongName>2155113 - Disclosure - Commitments and Contingencies</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/CommitmentsandContingencies</Role>
+      <ShortName>Commitments and Contingencies</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>21</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R22.htm</HtmlFileName>
+      <LongName>2157114 - Disclosure - Income Taxes</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/IncomeTaxes</Role>
+      <ShortName>Income Taxes</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>22</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R23.htm</HtmlFileName>
+      <LongName>2164115 - Disclosure - Shareholders??? Equity</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/ShareholdersEquity</Role>
+      <ShortName>Shareholders??? Equity</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>23</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R24.htm</HtmlFileName>
+      <LongName>2166116 - Disclosure - Employee Retirement Plans</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/EmployeeRetirementPlans</Role>
+      <ShortName>Employee Retirement Plans</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>24</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R25.htm</HtmlFileName>
+      <LongName>2168117 - Disclosure - Segment Information</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/SegmentInformation</Role>
+      <ShortName>Segment Information</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>25</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R26.htm</HtmlFileName>
+      <LongName>2176118 - Disclosure - SCHEDULE II ??? VALUATION AND QUALIFYING ACCOUNTS</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/SCHEDULEIIVALUATIONANDQUALIFYINGACCOUNTS</Role>
+      <ShortName>SCHEDULE II ??? VALUATION AND QUALIFYING ACCOUNTS</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>26</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R27.htm</HtmlFileName>
+      <LongName>2202201 - Disclosure - Organization and Summary of Significant Accounting Policies (Policies)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/OrganizationandSummaryofSignificantAccountingPoliciesPolicies</Role>
+      <ShortName>Organization and Summary of Significant Accounting Policies (Policies)</ShortName>
+      <MenuCategory>Policies</MenuCategory>
+      <ParentRole>http://www.nvidia.com/role/OrganizationandSummaryofSignificantAccountingPolicies</ParentRole>
+      <Position>27</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R28.htm</HtmlFileName>
+      <LongName>2305301 - Disclosure - Business Combination (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/BusinessCombinationTables</Role>
+      <ShortName>Business Combination (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.nvidia.com/role/BusinessCombination</ParentRole>
+      <Position>28</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R29.htm</HtmlFileName>
+      <LongName>2312302 - Disclosure - Leases (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/LeasesTables</Role>
+      <ShortName>Leases (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.nvidia.com/role/Leases</ParentRole>
+      <Position>29</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R30.htm</HtmlFileName>
+      <LongName>2317303 - Disclosure - Stock-Based Compensation (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/StockBasedCompensationTables</Role>
+      <ShortName>Stock-Based Compensation (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.nvidia.com/role/StockBasedCompensation</ParentRole>
+      <Position>30</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R31.htm</HtmlFileName>
+      <LongName>2323304 - Disclosure - Net Income Per Share (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/NetIncomePerShareTables</Role>
+      <ShortName>Net Income Per Share (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.nvidia.com/role/NetIncomePerShare</ParentRole>
+      <Position>31</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R32.htm</HtmlFileName>
+      <LongName>2328305 - Disclosure - Amortizable Intangible Assets (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/AmortizableIntangibleAssetsTables</Role>
+      <ShortName>Amortizable Intangible Assets (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.nvidia.com/role/AmortizableIntangibleAssets</ParentRole>
+      <Position>32</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R33.htm</HtmlFileName>
+      <LongName>2331306 - Disclosure - Cash Equivalents and Marketable Securities (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/CashEquivalentsandMarketableSecuritiesTables</Role>
+      <ShortName>Cash Equivalents and Marketable Securities (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.nvidia.com/role/CashEquivalentsandMarketableSecurities</ParentRole>
+      <Position>33</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R34.htm</HtmlFileName>
+      <LongName>2335307 - Disclosure - Fair Value of Financial Assets and Liabilities (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/FairValueofFinancialAssetsandLiabilitiesTables</Role>
+      <ShortName>Fair Value of Financial Assets and Liabilities (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.nvidia.com/role/FairValueofFinancialAssetsandLiabilities</ParentRole>
+      <Position>34</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R35.htm</HtmlFileName>
+      <LongName>2338308 - Disclosure - Balance Sheet Components (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/BalanceSheetComponentsTables</Role>
+      <ShortName>Balance Sheet Components (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.nvidia.com/role/BalanceSheetComponents</ParentRole>
+      <Position>35</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R36.htm</HtmlFileName>
+      <LongName>2348309 - Disclosure - Derivative Financial Instruments (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/DerivativeFinancialInstrumentsTables</Role>
+      <ShortName>Derivative Financial Instruments (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.nvidia.com/role/DerivativeFinancialInstruments</ParentRole>
+      <Position>36</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R37.htm</HtmlFileName>
+      <LongName>2352310 - Disclosure - Debt (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/DebtTables</Role>
+      <ShortName>Debt (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.nvidia.com/role/Debt</ParentRole>
+      <Position>37</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R38.htm</HtmlFileName>
+      <LongName>2358311 - Disclosure - Income Taxes (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/IncomeTaxesTables</Role>
+      <ShortName>Income Taxes (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.nvidia.com/role/IncomeTaxes</ParentRole>
+      <Position>38</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R39.htm</HtmlFileName>
+      <LongName>2369312 - Disclosure - Segment Information (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/SegmentInformationTables</Role>
+      <ShortName>Segment Information (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.nvidia.com/role/SegmentInformation</ParentRole>
+      <Position>39</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R40.htm</HtmlFileName>
+      <LongName>2403401 - Disclosure - Organization and Summary of Significant Accounting Policies (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/OrganizationandSummaryofSignificantAccountingPoliciesDetails</Role>
+      <ShortName>Organization and Summary of Significant Accounting Policies (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://www.nvidia.com/role/OrganizationandSummaryofSignificantAccountingPoliciesPolicies</ParentRole>
+      <Position>40</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R41.htm</HtmlFileName>
+      <LongName>2406402 - Disclosure - Business Combination - Pending Acquisition of Arm Limited, Additional Information (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/BusinessCombinationPendingAcquisitionofArmLimitedAdditionalInformationDetails</Role>
+      <ShortName>Business Combination - Pending Acquisition of Arm Limited, Additional Information (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>41</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R42.htm</HtmlFileName>
+      <LongName>2407403 - Disclosure - Business Combination - Additional Information (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/BusinessCombinationAdditionalInformationDetails</Role>
+      <ShortName>Business Combination - Additional Information (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>42</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R43.htm</HtmlFileName>
+      <LongName>2408404 - Disclosure - Business Combination - Assets Acquired and Liabilities Assumed (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/BusinessCombinationAssetsAcquiredandLiabilitiesAssumedDetails</Role>
+      <ShortName>Business Combination - Assets Acquired and Liabilities Assumed (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>43</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R44.htm</HtmlFileName>
+      <LongName>2409405 - Disclosure - Business Combination - Intangible Assets Acquired (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/BusinessCombinationIntangibleAssetsAcquiredDetails</Role>
+      <ShortName>Business Combination - Intangible Assets Acquired (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>44</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R45.htm</HtmlFileName>
+      <LongName>2410406 - Disclosure - Business Combination - Pro Forma Information (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/BusinessCombinationProFormaInformationDetails</Role>
+      <ShortName>Business Combination - Pro Forma Information (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>45</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R46.htm</HtmlFileName>
+      <LongName>2413407 - Disclosure - Leases - Narrative (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/LeasesNarrativeDetails</Role>
+      <ShortName>Leases - Narrative (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>46</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R47.htm</HtmlFileName>
+      <LongName>2414408 - Disclosure - Leases - Schedule of future minimum payments (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/LeasesScheduleoffutureminimumpaymentsDetails</Role>
+      <ShortName>Leases - Schedule of future minimum payments (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>47</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R48.htm</HtmlFileName>
+      <LongName>2415409 - Disclosure - Leases - Schedule of other lease information (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/LeasesScheduleofotherleaseinformationDetails</Role>
+      <ShortName>Leases - Schedule of other lease information (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>48</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R49.htm</HtmlFileName>
+      <LongName>2418410 - Disclosure - Stock-Based Compensation - Schedule of Stock-Based Compensation Expense (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/StockBasedCompensationScheduleofStockBasedCompensationExpenseDetails</Role>
+      <ShortName>Stock-Based Compensation - Schedule of Stock-Based Compensation Expense (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>49</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R50.htm</HtmlFileName>
+      <LongName>2419411 - Disclosure - Stock-Based Compensation - Summary of Equity Awards (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/StockBasedCompensationSummaryofEquityAwardsDetails</Role>
+      <ShortName>Stock-Based Compensation - Summary of Equity Awards (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>50</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R51.htm</HtmlFileName>
+      <LongName>2420412 - Disclosure - Stock-Based Compensation - Narrative (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/StockBasedCompensationNarrativeDetails</Role>
+      <ShortName>Stock-Based Compensation - Narrative (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>51</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R52.htm</HtmlFileName>
+      <LongName>2421413 - Disclosure - Stock-Based Compensation - Equity Incentive Plans (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/StockBasedCompensationEquityIncentivePlansDetails</Role>
+      <ShortName>Stock-Based Compensation - Equity Incentive Plans (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>52</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R53.htm</HtmlFileName>
+      <LongName>2424414 - Disclosure - Net Income Per Share (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/NetIncomePerShareDetails</Role>
+      <ShortName>Net Income Per Share (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://www.nvidia.com/role/NetIncomePerShareTables</ParentRole>
+      <Position>53</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R54.htm</HtmlFileName>
+      <LongName>2426415 - Disclosure - Goodwill (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/GoodwillDetails</Role>
+      <ShortName>Goodwill (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://www.nvidia.com/role/Goodwill</ParentRole>
+      <Position>54</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R55.htm</HtmlFileName>
+      <LongName>2429416 - Disclosure - Amortizable Intangible Assets (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/AmortizableIntangibleAssetsDetails</Role>
+      <ShortName>Amortizable Intangible Assets (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://www.nvidia.com/role/AmortizableIntangibleAssetsTables</ParentRole>
+      <Position>55</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R56.htm</HtmlFileName>
+      <LongName>2432417 - Disclosure - Cash Equivalents and Marketable Securities (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/CashEquivalentsandMarketableSecuritiesDetails</Role>
+      <ShortName>Cash Equivalents and Marketable Securities (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://www.nvidia.com/role/CashEquivalentsandMarketableSecuritiesTables</ParentRole>
+      <Position>56</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R57.htm</HtmlFileName>
+      <LongName>2433418 - Disclosure - Cash Equivalents and Marketable Securities - Amortized Cost and Estimated Fair Value of Cash Equivalents and Marketable Securities (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/CashEquivalentsandMarketableSecuritiesAmortizedCostandEstimatedFairValueofCashEquivalentsandMarketableSecuritiesDetails</Role>
+      <ShortName>Cash Equivalents and Marketable Securities - Amortized Cost and Estimated Fair Value of Cash Equivalents and Marketable Securities (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>57</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R58.htm</HtmlFileName>
+      <LongName>2436419 - Disclosure - Fair Value of Financial Assets and Liabilities (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/FairValueofFinancialAssetsandLiabilitiesDetails</Role>
+      <ShortName>Fair Value of Financial Assets and Liabilities (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://www.nvidia.com/role/FairValueofFinancialAssetsandLiabilitiesTables</ParentRole>
+      <Position>58</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R59.htm</HtmlFileName>
+      <LongName>2439420 - Disclosure - Balance Sheet Components - Inventories (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/BalanceSheetComponentsInventoriesDetails</Role>
+      <ShortName>Balance Sheet Components - Inventories (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>59</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R60.htm</HtmlFileName>
+      <LongName>2440421 - Disclosure - Balance Sheet Components - Property and Equipment (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/BalanceSheetComponentsPropertyandEquipmentDetails</Role>
+      <ShortName>Balance Sheet Components - Property and Equipment (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>60</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R61.htm</HtmlFileName>
+      <LongName>2441422 - Disclosure - Balance Sheet Components - Narrative (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/BalanceSheetComponentsNarrativeDetails</Role>
+      <ShortName>Balance Sheet Components - Narrative (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>61</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R62.htm</HtmlFileName>
+      <LongName>2442423 - Disclosure - Balance Sheet Components - Other Assets (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/BalanceSheetComponentsOtherAssetsDetails</Role>
+      <ShortName>Balance Sheet Components - Other Assets (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>62</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R63.htm</HtmlFileName>
+      <LongName>2443424 - Disclosure - Balance Sheet Components - Accrued and Other Current Liabilities (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/BalanceSheetComponentsAccruedandOtherCurrentLiabilitiesDetails</Role>
+      <ShortName>Balance Sheet Components - Accrued and Other Current Liabilities (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>63</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R64.htm</HtmlFileName>
+      <LongName>2444425 - Disclosure - Balance Sheet Components - Other Long-Term Liabilities (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/BalanceSheetComponentsOtherLongTermLiabilitiesDetails</Role>
+      <ShortName>Balance Sheet Components - Other Long-Term Liabilities (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>64</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R65.htm</HtmlFileName>
+      <LongName>2445426 - Disclosure - Balance Sheet Components - Deferred Revenue (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/BalanceSheetComponentsDeferredRevenueDetails</Role>
+      <ShortName>Balance Sheet Components - Deferred Revenue (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>65</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R66.htm</HtmlFileName>
+      <LongName>2446427 - Disclosure - Balance Sheet Components - Revenue Remaining Performance Obligation (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/BalanceSheetComponentsRevenueRemainingPerformanceObligationDetails</Role>
+      <ShortName>Balance Sheet Components - Revenue Remaining Performance Obligation (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>66</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R67.htm</HtmlFileName>
+      <LongName>2449428 - Disclosure - Derivative Financial Instruments (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/DerivativeFinancialInstrumentsDetails</Role>
+      <ShortName>Derivative Financial Instruments (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://www.nvidia.com/role/DerivativeFinancialInstrumentsTables</ParentRole>
+      <Position>67</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R68.htm</HtmlFileName>
+      <LongName>2450429 - Disclosure - Derivative Financial Instruments - Narrative (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/DerivativeFinancialInstrumentsNarrativeDetails</Role>
+      <ShortName>Derivative Financial Instruments - Narrative (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>68</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R69.htm</HtmlFileName>
+      <LongName>2453430 - Disclosure - Debt - Narrative (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/DebtNarrativeDetails</Role>
+      <ShortName>Debt - Narrative (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>69</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R70.htm</HtmlFileName>
+      <LongName>2454431 - Disclosure - Debt - Schedule of Debt (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/DebtScheduleofDebtDetails</Role>
+      <ShortName>Debt - Schedule of Debt (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>70</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R71.htm</HtmlFileName>
+      <LongName>2456432 - Disclosure - Commitments and Contingencies (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/CommitmentsandContingenciesDetails</Role>
+      <ShortName>Commitments and Contingencies (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://www.nvidia.com/role/CommitmentsandContingencies</ParentRole>
+      <Position>71</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R72.htm</HtmlFileName>
+      <LongName>2459433 - Disclosure - Income Taxes - Components of Income Tax Expense (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/IncomeTaxesComponentsofIncomeTaxExpenseDetails</Role>
+      <ShortName>Income Taxes - Components of Income Tax Expense (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>72</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R73.htm</HtmlFileName>
+      <LongName>2460434 - Disclosure - Income Taxes - Income Tax Reconciliation (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/IncomeTaxesIncomeTaxReconciliationDetails</Role>
+      <ShortName>Income Taxes - Income Tax Reconciliation (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>73</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R74.htm</HtmlFileName>
+      <LongName>2461435 - Disclosure - Income Taxes - Deferred Taxes (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/IncomeTaxesDeferredTaxesDetails</Role>
+      <ShortName>Income Taxes - Deferred Taxes (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>74</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R75.htm</HtmlFileName>
+      <LongName>2462436 - Disclosure - Income Taxes - Narrative (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/IncomeTaxesNarrativeDetails</Role>
+      <ShortName>Income Taxes - Narrative (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>75</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R76.htm</HtmlFileName>
+      <LongName>2463437 - Disclosure - Income Taxes - Unrecognized Tax Benefits (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/IncomeTaxesUnrecognizedTaxBenefitsDetails</Role>
+      <ShortName>Income Taxes - Unrecognized Tax Benefits (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>76</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R77.htm</HtmlFileName>
+      <LongName>2465438 - Disclosure - Shareholders' Equity (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/ShareholdersEquityDetails</Role>
+      <ShortName>Shareholders' Equity (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>77</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R78.htm</HtmlFileName>
+      <LongName>2467439 - Disclosure - Employee Retirement Plans (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/EmployeeRetirementPlansDetails</Role>
+      <ShortName>Employee Retirement Plans (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://www.nvidia.com/role/EmployeeRetirementPlans</ParentRole>
+      <Position>78</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R79.htm</HtmlFileName>
+      <LongName>2470440 - Disclosure - Segment Information - Narrative (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/SegmentInformationNarrativeDetails</Role>
+      <ShortName>Segment Information - Narrative (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>79</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R80.htm</HtmlFileName>
+      <LongName>2471441 - Disclosure - Segment Information - Reportable Segments (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/SegmentInformationReportableSegmentsDetails</Role>
+      <ShortName>Segment Information - Reportable Segments (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>80</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R81.htm</HtmlFileName>
+      <LongName>2472442 - Disclosure - Segment Information - Reconciling Items (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/SegmentInformationReconcilingItemsDetails</Role>
+      <ShortName>Segment Information - Reconciling Items (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>81</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R82.htm</HtmlFileName>
+      <LongName>2473443 - Disclosure - Segment Information - Revenue and Long-lived Assets by Region (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/SegmentInformationRevenueandLonglivedAssetsbyRegionDetails</Role>
+      <ShortName>Segment Information - Revenue and Long-lived Assets by Region (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>82</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R83.htm</HtmlFileName>
+      <LongName>2474444 - Disclosure - Segment Information - Schedule of Revenue by Market (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/SegmentInformationScheduleofRevenuebyMarketDetails</Role>
+      <ShortName>Segment Information - Schedule of Revenue by Market (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>83</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R84.htm</HtmlFileName>
+      <LongName>2475445 - Disclosure - Segment Information - Revenue and Accounts Receivable by Major Customer (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/SegmentInformationRevenueandAccountsReceivablebyMajorCustomerDetails</Role>
+      <ShortName>Segment Information - Revenue and Accounts Receivable by Major Customer (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>84</Position>
+    </Report>
+    <Report instance="nvda-20210131.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R85.htm</HtmlFileName>
+      <LongName>2477446 - Disclosure - SCHEDULE II ??? VALUATION AND QUALIFYING ACCOUNTS (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.nvidia.com/role/SCHEDULEIIVALUATIONANDQUALIFYINGACCOUNTSDetails</Role>
+      <ShortName>SCHEDULE II ??? VALUATION AND QUALIFYING ACCOUNTS (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://www.nvidia.com/role/SCHEDULEIIVALUATIONANDQUALIFYINGACCOUNTS</ParentRole>
+      <Position>85</Position>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>All Reports</LongName>
+      <ReportType>Book</ReportType>
+      <ShortName>All Reports</ShortName>
+    </Report>
+  </MyReports>
+  <InputFiles>
+    <File doctype="10-K" original="nvda-20210131.htm">nvda-20210131.htm</File>
+    <File>consentofindependentregist.htm</File>
+    <File>descriptionoftheregistrant.htm</File>
+    <File>listofregistrantssubsidiar.htm</File>
+    <File>nvda-20210131.xsd</File>
+    <File>nvda-20210131_cal.xml</File>
+    <File>nvda-20210131_def.xml</File>
+    <File>nvda-20210131_lab.xml</File>
+    <File>nvda-20210131_pre.xml</File>
+    <File>nvda-2021xex311.htm</File>
+    <File>nvda-2021xex312.htm</File>
+    <File>nvda-2021xex321.htm</File>
+    <File>nvda-2021xex322.htm</File>
+  </InputFiles>
+  <SupplementalFiles>
+    <File>nvda-20210131_g1.jpg</File>
+    <File>nvda-20210131_g2.jpg</File>
+  </SupplementalFiles>
+  <BaseTaxonomies>
+    <BaseTaxonomy>http://fasb.org/us-gaap/2020-01-31</BaseTaxonomy>
+    <BaseTaxonomy>http://fasb.org/srt/2020-01-31</BaseTaxonomy>
+    <BaseTaxonomy>http://xbrl.sec.gov/stpr/2018-01-31</BaseTaxonomy>
+    <BaseTaxonomy>http://xbrl.sec.gov/dei/2020-01-31</BaseTaxonomy>
+    <BaseTaxonomy>http://xbrl.sec.gov/country/2020-01-31</BaseTaxonomy>
+  </BaseTaxonomies>
+  <HasPresentationLinkbase>true</HasPresentationLinkbase>
+  <HasCalculationLinkbase>true</HasCalculationLinkbase>
+</FilingSummary>

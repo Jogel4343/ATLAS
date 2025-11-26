@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--XBRL Document Created with Wdesk from Workiva-->
+<!--Copyright 2023 Workiva-->
+<!--r:ef0cd95b-c091-45d9-9ec4-59a91e53c087,g:89e0b42e-17ea-41cd-a960-23afed5140c5-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:tgt="http://corporate.target.com/20230128" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2020-01-21" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://corporate.target.com/20230128">
+  <xs:import namespace="http://fasb.org/srt/2022" schemaLocation="https://xbrl.fasb.org/srt/2022/elts/srt-2022.xsd"/>
+  <xs:import namespace="http://fasb.org/us-gaap/2022" schemaLocation="https://xbrl.fasb.org/us-gaap/2022/elts/us-gaap-2022.xsd"/>
+  <xs:import namespace="http://www.w3.org/1999/xlink" schemaLocation="http://www.xbrl.org/2003/xlink-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/dtr/type/2020-01-21" schemaLocation="https://www.xbrl.org/dtr/type/2020-01-21/types.xsd"/>
+  <xs:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/dei/2022" schemaLocation="https://xbrl.sec.gov/dei/2022/dei-2022.xsd"/>
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="tgt-20230128_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="tgt-20230128_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="tgt-20230128_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="tgt-20230128_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+      <link:roleType id="CoverPage" roleURI="http://corporate.target.com/role/CoverPage">
+        <link:definition>0000001 - Document - Cover Page</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AuditInformation" roleURI="http://corporate.target.com/role/AuditInformation">
+        <link:definition>0000002 - Document - Audit Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofOperations" roleURI="http://corporate.target.com/role/ConsolidatedStatementsofOperations">
+        <link:definition>0000003 - Statement - Consolidated Statements of Operations</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofComprehensiveIncome" roleURI="http://corporate.target.com/role/ConsolidatedStatementsofComprehensiveIncome">
+        <link:definition>0000004 - Statement - Consolidated Statements of Comprehensive Income</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofFinancialPosition" roleURI="http://corporate.target.com/role/ConsolidatedStatementsofFinancialPosition">
+        <link:definition>0000005 - Statement - Consolidated Statements of Financial Position</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofFinancialPositionParenthetical" roleURI="http://corporate.target.com/role/ConsolidatedStatementsofFinancialPositionParenthetical">
+        <link:definition>0000006 - Statement - Consolidated Statements of Financial Position (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofCashFlows" roleURI="http://corporate.target.com/role/ConsolidatedStatementsofCashFlows">
+        <link:definition>0000007 - Statement - Consolidated Statements of Cash Flows</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofShareholdersInvestment" roleURI="http://corporate.target.com/role/ConsolidatedStatementsofShareholdersInvestment">
+        <link:definition>0000008 - Statement - Consolidated Statements of Shareholders' Investment</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofShareholdersInvestmentParenthetical" roleURI="http://corporate.target.com/role/ConsolidatedStatementsofShareholdersInvestmentParenthetical">
+        <link:definition>0000009 - Statement - Consolidated Statements of Shareholders' Investment (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofAccountingPolicies" roleURI="http://corporate.target.com/role/SummaryofAccountingPolicies">
+        <link:definition>0000010 - Disclosure - Summary of Accounting Policies</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DermstoreSale" roleURI="http://corporate.target.com/role/DermstoreSale">
+        <link:definition>0000011 - Disclosure - Dermstore Sale</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Revenues" roleURI="http://corporate.target.com/role/Revenues">
+        <link:definition>0000012 - Disclosure - Revenues</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CostofSalesandSellingGeneralandAdministrativeExpenses" roleURI="http://corporate.target.com/role/CostofSalesandSellingGeneralandAdministrativeExpenses">
+        <link:definition>0000013 - Disclosure - Cost of Sales and Selling, General and Administrative Expenses</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsiderationReceivedfromVendors" roleURI="http://corporate.target.com/role/ConsiderationReceivedfromVendors">
+        <link:definition>0000014 - Disclosure - Consideration Received from Vendors</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AdvertisingCosts" roleURI="http://corporate.target.com/role/AdvertisingCosts">
+        <link:definition>0000015 - Disclosure - Advertising Costs</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurements" roleURI="http://corporate.target.com/role/FairValueMeasurements">
+        <link:definition>0000016 - Disclosure - Fair Value Measurements</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CashandCashEquivalents" roleURI="http://corporate.target.com/role/CashandCashEquivalents">
+        <link:definition>0000017 - Disclosure - Cash and Cash Equivalents</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Inventory" roleURI="http://corporate.target.com/role/Inventory">
+        <link:definition>0000018 - Disclosure - Inventory</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="OtherCurrentAssets" roleURI="http://corporate.target.com/role/OtherCurrentAssets">
+        <link:definition>0000019 - Disclosure - Other Current Assets</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PropertyandEquipment" roleURI="http://corporate.target.com/role/PropertyandEquipment">
+        <link:definition>0000020 - Disclosure - Property and Equipment</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="OtherNoncurrentAssets" roleURI="http://corporate.target.com/role/OtherNoncurrentAssets">
+        <link:definition>0000021 - Disclosure - Other Noncurrent Assets</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccruedandOtherCurrentLiabilities" roleURI="http://corporate.target.com/role/AccruedandOtherCurrentLiabilities">
+        <link:definition>0000022 - Disclosure - Accrued and Other Current Liabilities</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentsandContingencies" roleURI="http://corporate.target.com/role/CommitmentsandContingencies">
+        <link:definition>0000023 - Disclosure - Commitments and Contingencies</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommercialPaperandLongTermDebt" roleURI="http://corporate.target.com/role/CommercialPaperandLongTermDebt">
+        <link:definition>0000024 - Disclosure - Commercial Paper and Long-Term Debt</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativeFinancialInstruments" roleURI="http://corporate.target.com/role/DerivativeFinancialInstruments">
+        <link:definition>0000025 - Disclosure - Derivative Financial Instruments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Leases" roleURI="http://corporate.target.com/role/Leases">
+        <link:definition>0000026 - Disclosure - Leases</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxes" roleURI="http://corporate.target.com/role/IncomeTaxes">
+        <link:definition>0000027 - Disclosure - Income Taxes</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="OtherNoncurrentLiabilities" roleURI="http://corporate.target.com/role/OtherNoncurrentLiabilities">
+        <link:definition>0000028 - Disclosure - Other Noncurrent Liabilities</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ShareRepurchase" roleURI="http://corporate.target.com/role/ShareRepurchase">
+        <link:definition>0000029 - Disclosure - Share Repurchase</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ShareBasedCompensation" roleURI="http://corporate.target.com/role/ShareBasedCompensation">
+        <link:definition>0000030 - Disclosure - Share-Based Compensation</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DefinedContributionPlans" roleURI="http://corporate.target.com/role/DefinedContributionPlans">
+        <link:definition>0000031 - Disclosure - Defined Contribution Plans</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PensionPlans" roleURI="http://corporate.target.com/role/PensionPlans">
+        <link:definition>0000032 - Disclosure - Pension Plans</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccumulatedOtherComprehensiveLoss" roleURI="http://corporate.target.com/role/AccumulatedOtherComprehensiveLoss">
+        <link:definition>0000033 - Disclosure - Accumulated Other Comprehensive Loss</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofAccountingPoliciesPolicies" roleURI="http://corporate.target.com/role/SummaryofAccountingPoliciesPolicies">
+        <link:definition>0000034 - Disclosure - Summary of Accounting Policies (Policies)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenuesTables" roleURI="http://corporate.target.com/role/RevenuesTables">
+        <link:definition>0000035 - Disclosure - Revenues (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurementsTables" roleURI="http://corporate.target.com/role/FairValueMeasurementsTables">
+        <link:definition>0000036 - Disclosure - Fair Value Measurements (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CashandCashEquivalentsTables" roleURI="http://corporate.target.com/role/CashandCashEquivalentsTables">
+        <link:definition>0000037 - Disclosure - Cash and Cash Equivalents (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="OtherCurrentAssetsTables" roleURI="http://corporate.target.com/role/OtherCurrentAssetsTables">
+        <link:definition>0000038 - Disclosure - Other Current Assets (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PropertyandEquipmentTables" roleURI="http://corporate.target.com/role/PropertyandEquipmentTables">
+        <link:definition>0000039 - Disclosure - Property and Equipment (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="OtherNoncurrentAssetsTables" roleURI="http://corporate.target.com/role/OtherNoncurrentAssetsTables">
+        <link:definition>0000040 - Disclosure - Other Noncurrent Assets (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccruedandOtherCurrentLiabilitiesTables" roleURI="http://corporate.target.com/role/AccruedandOtherCurrentLiabilitiesTables">
+        <link:definition>0000041 - Disclosure - Accrued and Other Current Liabilities (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommercialPaperandLongTermDebtTables" roleURI="http://corporate.target.com/role/CommercialPaperandLongTermDebtTables">
+        <link:definition>0000042 - Disclosure - Commercial Paper and Long-Term Debt (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativeFinancialInstrumentsTables" roleURI="http://corporate.target.com/role/DerivativeFinancialInstrumentsTables">
+        <link:definition>0000043 - Disclosure - Derivative Financial Instruments (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesTables" roleURI="http://corporate.target.com/role/LeasesTables">
+        <link:definition>0000044 - Disclosure - Leases (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesTables" roleURI="http://corporate.target.com/role/IncomeTaxesTables">
+        <link:definition>0000045 - Disclosure - Income Taxes (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="OtherNoncurrentLiabilitiesTables" roleURI="http://corporate.target.com/role/OtherNoncurrentLiabilitiesTables">
+        <link:definition>0000046 - Disclosure - Other Noncurrent Liabilities (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ShareRepurchaseTables" roleURI="http://corporate.target.com/role/ShareRepurchaseTables">
+        <link:definition>0000047 - Disclosure - Share Repurchase (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ShareBasedCompensationTables" roleURI="http://corporate.target.com/role/ShareBasedCompensationTables">
+        <link:definition>0000048 - Disclosure - Share-Based Compensation (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DefinedContributionPlansTables" roleURI="http://corporate.target.com/role/DefinedContributionPlansTables">
+        <link:definition>0000049 - Disclosure - Defined Contribution Plans (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PensionPlansTables" roleURI="http://corporate.target.com/role/PensionPlansTables">
+        <link:definition>0000050 - Disclosure - Pension Plans (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccumulatedOtherComprehensiveLossTables" roleURI="http://corporate.target.com/role/AccumulatedOtherComprehensiveLossTables">
+        <link:definition>0000051 - Disclosure - Accumulated Other Comprehensive Loss (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofAccountingPoliciesNarrativeDetails" roleURI="http://corporate.target.com/role/SummaryofAccountingPoliciesNarrativeDetails">
+        <link:definition>0000052 - Disclosure - Summary of Accounting Policies - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DermstoreSaleDetails" roleURI="http://corporate.target.com/role/DermstoreSaleDetails">
+        <link:definition>0000053 - Disclosure - Dermstore Sale (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenuesDisaggregationofRevenueDetails" roleURI="http://corporate.target.com/role/RevenuesDisaggregationofRevenueDetails">
+        <link:definition>0000054 - Disclosure - Revenues - Disaggregation of Revenue (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenuesNarrativeDetails" roleURI="http://corporate.target.com/role/RevenuesNarrativeDetails">
+        <link:definition>0000055 - Disclosure - Revenues - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenuesGiftCardLiabilityActivityDetails" roleURI="http://corporate.target.com/role/RevenuesGiftCardLiabilityActivityDetails">
+        <link:definition>0000056 - Disclosure - Revenues - Gift Card Liability Activity (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AdvertisingCostsDetails" roleURI="http://corporate.target.com/role/AdvertisingCostsDetails">
+        <link:definition>0000057 - Disclosure - Advertising Costs (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurementsScheduleofFairValueMeasurementsRecurringBasisDetails" roleURI="http://corporate.target.com/role/FairValueMeasurementsScheduleofFairValueMeasurementsRecurringBasisDetails">
+        <link:definition>0000058 - Disclosure - Fair Value Measurements - Schedule of Fair Value Measurements - Recurring Basis (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurementsScheduleofSignificantFinancialInstrumentsNotMeasuredatFairValueDetails" roleURI="http://corporate.target.com/role/FairValueMeasurementsScheduleofSignificantFinancialInstrumentsNotMeasuredatFairValueDetails">
+        <link:definition>0000059 - Disclosure - Fair Value Measurements - Schedule of Significant Financial Instruments Not Measured at Fair Value (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CashandCashEquivalentsNarrativeDetails" roleURI="http://corporate.target.com/role/CashandCashEquivalentsNarrativeDetails">
+        <link:definition>0000060 - Disclosure - Cash and Cash Equivalents - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CashandCashEquivalentsScheduleofCashandCashEquivalentsDetails" roleURI="http://corporate.target.com/role/CashandCashEquivalentsScheduleofCashandCashEquivalentsDetails">
+        <link:definition>0000061 - Disclosure - Cash and Cash Equivalents - Schedule of Cash and Cash Equivalents (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InventoryNarrativeDetails" roleURI="http://corporate.target.com/role/InventoryNarrativeDetails">
+        <link:definition>0000062 - Disclosure - Inventory - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="OtherCurrentAssetsDetails" roleURI="http://corporate.target.com/role/OtherCurrentAssetsDetails">
+        <link:definition>0000063 - Disclosure - Other Current Assets (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PropertyandEquipmentNarrativeDetails" roleURI="http://corporate.target.com/role/PropertyandEquipmentNarrativeDetails">
+        <link:definition>0000064 - Disclosure - Property and Equipment - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PropertyandEquipmentUsefulLivesDetails" roleURI="http://corporate.target.com/role/PropertyandEquipmentUsefulLivesDetails">
+        <link:definition>0000065 - Disclosure - Property and Equipment - Useful Lives (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="OtherNoncurrentAssetsDetails" roleURI="http://corporate.target.com/role/OtherNoncurrentAssetsDetails">
+        <link:definition>0000066 - Disclosure - Other Noncurrent Assets (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccruedandOtherCurrentLiabilitiesDetails" roleURI="http://corporate.target.com/role/AccruedandOtherCurrentLiabilitiesDetails">
+        <link:definition>0000067 - Disclosure - Accrued and Other Current Liabilities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentsandContingenciesDetails" roleURI="http://corporate.target.com/role/CommitmentsandContingenciesDetails">
+        <link:definition>0000068 - Disclosure - Commitments and Contingencies (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommercialPaperandLongTermDebtScheduleofCarryingValueandMaturitiesofDebtPortfolioDetails" roleURI="http://corporate.target.com/role/CommercialPaperandLongTermDebtScheduleofCarryingValueandMaturitiesofDebtPortfolioDetails">
+        <link:definition>0000069 - Disclosure - Commercial Paper and Long-Term Debt - Schedule of Carrying Value and Maturities of Debt Portfolio (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommercialPaperandLongTermDebtScheduleofRequiredPrincipalPaymentsDetails" roleURI="http://corporate.target.com/role/CommercialPaperandLongTermDebtScheduleofRequiredPrincipalPaymentsDetails">
+        <link:definition>0000070 - Disclosure - Commercial Paper and Long-Term Debt - Schedule of Required Principal Payments (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommercialPaperandLongTermDebtNarrativeDetails" roleURI="http://corporate.target.com/role/CommercialPaperandLongTermDebtNarrativeDetails">
+        <link:definition>0000071 - Disclosure - Commercial Paper and Long-Term Debt - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativeFinancialInstrumentsNarrativeDetails" roleURI="http://corporate.target.com/role/DerivativeFinancialInstrumentsNarrativeDetails">
+        <link:definition>0000072 - Disclosure - Derivative Financial Instruments - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativeFinancialInstrumentsEffectofHedgesOnDebtDetails" roleURI="http://corporate.target.com/role/DerivativeFinancialInstrumentsEffectofHedgesOnDebtDetails">
+        <link:definition>0000073 - Disclosure - Derivative Financial Instruments - Effect of Hedges On Debt (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativeFinancialInstrumentsEffectofHedgesonNetInterestExpenseDetails" roleURI="http://corporate.target.com/role/DerivativeFinancialInstrumentsEffectofHedgesonNetInterestExpenseDetails">
+        <link:definition>0000074 - Disclosure - Derivative Financial Instruments - Effect of Hedges on Net Interest Expense (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesNarrativeDetails" roleURI="http://corporate.target.com/role/LeasesNarrativeDetails">
+        <link:definition>0000075 - Disclosure - Leases - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesLeaseAssetsandLiabilitiesDetails" roleURI="http://corporate.target.com/role/LeasesLeaseAssetsandLiabilitiesDetails">
+        <link:definition>0000076 - Disclosure - Leases - Lease Assets and Liabilities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesLeaseCostDetails" roleURI="http://corporate.target.com/role/LeasesLeaseCostDetails">
+        <link:definition>0000077 - Disclosure - Leases - Lease Cost (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesMaturityofLeaseLiabilitiesDetails" roleURI="http://corporate.target.com/role/LeasesMaturityofLeaseLiabilitiesDetails">
+        <link:definition>0000078 - Disclosure - Leases - Maturity of Lease Liabilities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesMaturityofLeaseLiabilitiesDetails_1" roleURI="http://corporate.target.com/role/LeasesMaturityofLeaseLiabilitiesDetails_1">
+        <link:definition>0000078 - Disclosure - Leases - Maturity of Lease Liabilities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesLeaseTermandDiscountRateDetails" roleURI="http://corporate.target.com/role/LeasesLeaseTermandDiscountRateDetails">
+        <link:definition>0000079 - Disclosure - Leases - Lease Term and Discount Rate (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesOtherInformationDetails" roleURI="http://corporate.target.com/role/LeasesOtherInformationDetails">
+        <link:definition>0000080 - Disclosure - Leases - Other Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesNarrativeDetails" roleURI="http://corporate.target.com/role/IncomeTaxesNarrativeDetails">
+        <link:definition>0000081 - Disclosure - Income Taxes - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesScheduleofTaxRateReconciliationContinuingOperationsDetails" roleURI="http://corporate.target.com/role/IncomeTaxesScheduleofTaxRateReconciliationContinuingOperationsDetails">
+        <link:definition>0000082 - Disclosure - Income Taxes - Schedule of Tax Rate Reconciliation - Continuing Operations (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesScheduleofProvisionforIncomeTaxesDetails" roleURI="http://corporate.target.com/role/IncomeTaxesScheduleofProvisionforIncomeTaxesDetails">
+        <link:definition>0000083 - Disclosure - Income Taxes - Schedule of Provision for Income Taxes (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesScheduleofNetDeferredTaxAssetLiabilityDetails" roleURI="http://corporate.target.com/role/IncomeTaxesScheduleofNetDeferredTaxAssetLiabilityDetails">
+        <link:definition>0000084 - Disclosure - Income Taxes - Schedule of Net Deferred Tax Asset/(Liability) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesScheduleofReconciliationofLiabilityforUnrecognizedTaxBenefitsDetails" roleURI="http://corporate.target.com/role/IncomeTaxesScheduleofReconciliationofLiabilityforUnrecognizedTaxBenefitsDetails">
+        <link:definition>0000085 - Disclosure - Income Taxes - Schedule of Reconciliation of Liability for Unrecognized Tax Benefits (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="OtherNoncurrentLiabilitiesDetails" roleURI="http://corporate.target.com/role/OtherNoncurrentLiabilitiesDetails">
+        <link:definition>0000086 - Disclosure - Other Noncurrent Liabilities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ShareRepurchaseDetails" roleURI="http://corporate.target.com/role/ShareRepurchaseDetails">
+        <link:definition>0000087 - Disclosure - Share Repurchase (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ShareBasedCompensationNarrativeDetails" roleURI="http://corporate.target.com/role/ShareBasedCompensationNarrativeDetails">
+        <link:definition>0000088 - Disclosure - Share-Based Compensation - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ShareBasedCompensationScheduleofRestrictedStockActivityandPerformanceShareUnitActivityDetails" roleURI="http://corporate.target.com/role/ShareBasedCompensationScheduleofRestrictedStockActivityandPerformanceShareUnitActivityDetails">
+        <link:definition>0000089 - Disclosure - Share-Based Compensation - Schedule of Restricted Stock Activity and Performance Share Unit Activity (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ShareBasedCompensationScheduleofStockOptionActivityDetails" roleURI="http://corporate.target.com/role/ShareBasedCompensationScheduleofStockOptionActivityDetails">
+        <link:definition>0000090 - Disclosure - Share-Based Compensation - Schedule of Stock Option Activity (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ShareBasedCompensationScheduleofStockOptionExercisesDetails" roleURI="http://corporate.target.com/role/ShareBasedCompensationScheduleofStockOptionExercisesDetails">
+        <link:definition>0000091 - Disclosure - Share-Based Compensation - Schedule of Stock Option Exercises (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DefinedContributionPlansNarrativeDetails" roleURI="http://corporate.target.com/role/DefinedContributionPlansNarrativeDetails">
+        <link:definition>0000092 - Disclosure - Defined Contribution Plans - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DefinedContributionPlansScheduleofPlanExpensesDetails" roleURI="http://corporate.target.com/role/DefinedContributionPlansScheduleofPlanExpensesDetails">
+        <link:definition>0000093 - Disclosure - Defined Contribution Plans - Schedule of Plan Expenses (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PensionPlansScheduleofRecognitionofFundedUnderfundedStatusDetails" roleURI="http://corporate.target.com/role/PensionPlansScheduleofRecognitionofFundedUnderfundedStatusDetails">
+        <link:definition>0000094 - Disclosure - Pension Plans - Schedule of Recognition of Funded/(Underfunded) Status (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PensionPlansNarrativeDetails" roleURI="http://corporate.target.com/role/PensionPlansNarrativeDetails">
+        <link:definition>0000095 - Disclosure - Pension Plans - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PensionPlansScheduleofEstimatedFutureBenefitPaymentsDetails" roleURI="http://corporate.target.com/role/PensionPlansScheduleofEstimatedFutureBenefitPaymentsDetails">
+        <link:definition>0000096 - Disclosure - Pension Plans - Schedule of Estimated Future Benefit Payments (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PensionPlansScheduleofNetPensionBenefitExpenseDetails" roleURI="http://corporate.target.com/role/PensionPlansScheduleofNetPensionBenefitExpenseDetails">
+        <link:definition>0000097 - Disclosure - Pension Plans - Schedule of Net Pension Benefit Expense (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PensionPlansScheduleofBenefitObligationWeightedAverageAssumptionsDetails" roleURI="http://corporate.target.com/role/PensionPlansScheduleofBenefitObligationWeightedAverageAssumptionsDetails">
+        <link:definition>0000098 - Disclosure - Pension Plans - Schedule of Benefit Obligation Weighted Average Assumptions (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PensionPlansScheduleofNetPeriodicBenefitExpenseWeightedAverageAssumptionsDetails" roleURI="http://corporate.target.com/role/PensionPlansScheduleofNetPeriodicBenefitExpenseWeightedAverageAssumptionsDetails">
+        <link:definition>0000099 - Disclosure - Pension Plans - Schedule of Net Periodic Benefit Expense Weighted Average Assumptions (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PensionPlansScheduleofChangeinProjectedBenefitObligationDetails" roleURI="http://corporate.target.com/role/PensionPlansScheduleofChangeinProjectedBenefitObligationDetails">
+        <link:definition>0000100 - Disclosure - Pension Plans - Schedule of Change in Projected Benefit Obligation (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PensionPlansScheduleofChangeinPlanAssetsDetails" roleURI="http://corporate.target.com/role/PensionPlansScheduleofChangeinPlanAssetsDetails">
+        <link:definition>0000101 - Disclosure - Pension Plans - Schedule of Change in Plan Assets (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PensionPlansScheduleofAssetCategoryDetails" roleURI="http://corporate.target.com/role/PensionPlansScheduleofAssetCategoryDetails">
+        <link:definition>0000102 - Disclosure - Pension Plans - Schedule of Asset Category (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PensionPlansScheduleofFairValueMeasurementsDetails" roleURI="http://corporate.target.com/role/PensionPlansScheduleofFairValueMeasurementsDetails">
+        <link:definition>0000103 - Disclosure - Pension Plans - Schedule of Fair Value Measurements (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PensionPlansScheduleofAmountsinAccumulatedOtherComprehensiveIncomeDetails" roleURI="http://corporate.target.com/role/PensionPlansScheduleofAmountsinAccumulatedOtherComprehensiveIncomeDetails">
+        <link:definition>0000104 - Disclosure - Pension Plans - Schedule of Amounts in Accumulated Other Comprehensive Income (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccumulatedOtherComprehensiveLossDetails" roleURI="http://corporate.target.com/role/AccumulatedOtherComprehensiveLossDetails">
+        <link:definition>0000105 - Disclosure - Accumulated Other Comprehensive Loss (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element id="tgt_LeaseRightofUseAsset" abstract="false" name="LeaseRightofUseAsset" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_ContractWithCustomerLiabilityLoyaltyProgramCurrent" abstract="false" name="ContractWithCustomerLiabilityLoyaltyProgramCurrent" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_DefinedBenefitPlanAssumptionsExpectedAnnualizedLongTermRateOfReturnOnPlanAssets" abstract="false" name="DefinedBenefitPlanAssumptionsExpectedAnnualizedLongTermRateOfReturnOnPlanAssets" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="tgt_ShortTermAndVariableLeaseCost" abstract="false" name="ShortTermAndVariableLeaseCost" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_NumberOfPlanParticipants" abstract="false" name="NumberOfPlanParticipants" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:integerItemType"/>
+  <xs:element id="tgt_AccruedAndOtherCurrentLiabilitiesDisclosureAbstract" abstract="true" name="AccruedAndOtherCurrentLiabilitiesDisclosureAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="tgt_UnsecuredFixedRate44Maturing2033Member" abstract="true" name="UnsecuredFixedRate44Maturing2033Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_ShareBasedCompensationArrangementByShareBasedPaymentAwardPerformanceShareUnitsOutstandingAfterApplyingActualOrExpectedPayoutRatesNumber" abstract="false" name="ShareBasedCompensationArrangementByShareBasedPaymentAwardPerformanceShareUnitsOutstandingAfterApplyingActualOrExpectedPayoutRatesNumber" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:sharesItemType"/>
+  <xs:element id="tgt_RealEstateObligationsMember" abstract="true" name="RealEstateObligationsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_ContractWithCustomerLiabilityLiabilitiesIncurred" abstract="false" name="ContractWithCustomerLiabilityLiabilitiesIncurred" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_OrganizationPolicyTextBlock" abstract="false" name="OrganizationPolicyTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="tgt_ApparelAndAccessoriesMember" abstract="true" name="ApparelAndAccessoriesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_PercentageOfLoyaltyRewardsEarnedOnPurchases" abstract="false" name="PercentageOfLoyaltyRewardsEarnedOnPurchases" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="tgt_RecordedandUnrecordedUnconditionalPurchaseObligation" abstract="false" name="RecordedandUnrecordedUnconditionalPurchaseObligation" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_LesseeFinanceLeaseOptiontoExtendReasonablyCertain" abstract="false" name="LesseeFinanceLeaseOptiontoExtendReasonablyCertain" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_IncreaseDecreaseinNonqualifiedDeferredCompensationPlansRelatedInvestmentLoss" abstract="false" name="IncreaseDecreaseinNonqualifiedDeferredCompensationPlansRelatedInvestmentLoss" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_RecordedandUnrecordedUnconditionalPurchaseObligationTerm" abstract="false" name="RecordedandUnrecordedUnconditionalPurchaseObligationTerm" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="tgt_DermstoreMember" abstract="true" name="DermstoreMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_DefinedBenefitPlanAssumptionsCompoundAnnualRateOfReturnPeriodOne" abstract="false" name="DefinedBenefitPlanAssumptionsCompoundAnnualRateOfReturnPeriodOne" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="tgt_DefinedContributionPlan401KPlanAbstract" abstract="true" name="DefinedContributionPlan401KPlanAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="tgt_ScheduleOfOtherLiabilitiesNoncurrentTableTextBlock" abstract="false" name="ScheduleOfOtherLiabilitiesNoncurrentTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="tgt_GoodwillAndIntangibleAssets" abstract="false" name="GoodwillAndIntangibleAssets" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_UnsecuredFixedRate2250Maturing2025Member" abstract="true" name="UnsecuredFixedRate2250Maturing2025Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_CostOfSalesAndSellingGeneralAndAdministrativeExpensesDisclosureTextBlock" abstract="false" name="CostOfSalesAndSellingGeneralAndAdministrativeExpensesDisclosureTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="tgt_OtherProductsandServicesMember" abstract="true" name="OtherProductsandServicesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_CashEquivalentsCreditAndDebitCardTransactionsDuePeriodMaximum" abstract="false" name="CashEquivalentsCreditAndDebitCardTransactionsDuePeriodMaximum" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="tgt_ScheduleOfDefinedContributionPlanExpensesTableTextBlock" abstract="false" name="ScheduleOfDefinedContributionPlanExpensesTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="tgt_DeferredTaxAssetsLeaseLiabilities" abstract="false" name="DeferredTaxAssetsLeaseLiabilities" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_PercentOfSalesUnderDirectVendorShipOrScanBasedTradingArrangements" abstract="false" name="PercentOfSalesUnderDirectVendorShipOrScanBasedTradingArrangements" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="tgt_ShareBasedCompensationArrangementByShareBasedPaymentAwardPerformanceShareUnitMaximumFutureCompensationCost" abstract="false" name="ShareBasedCompensationArrangementByShareBasedPaymentAwardPerformanceShareUnitMaximumFutureCompensationCost" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_InterestRateSwapNewAgreementMember" abstract="true" name="InterestRateSwapNewAgreementMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_InterestRateSwapPreviousAgreementMember" abstract="true" name="InterestRateSwapPreviousAgreementMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_OtherProductMember" abstract="true" name="OtherProductMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_OtherOtherRevenueMember" abstract="true" name="OtherOtherRevenueMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_NationalBrandMerchandiseMember" abstract="true" name="NationalBrandMerchandiseMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_CostofSalesandSellingGeneralandAdministrativeExpensesAbstract" abstract="true" name="CostofSalesandSellingGeneralandAdministrativeExpensesAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="tgt_DefinedContributionPlansDisclosureTextBlock" abstract="false" name="DefinedContributionPlansDisclosureTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="tgt_UnsecuredFixedRate48Maturing2053Member" abstract="true" name="UnsecuredFixedRate48Maturing2053Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_DefinedBenefitPlanAssumptionsCompoundAnnualRateOfReturnPeriodTwo" abstract="false" name="DefinedBenefitPlanAssumptionsCompoundAnnualRateOfReturnPeriodTwo" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="tgt_PercentageOfLoyaltyDiscounts" abstract="false" name="PercentageOfLoyaltyDiscounts" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="tgt_LeaseLiabilitiesCurrentAbstract" abstract="true" name="LeaseLiabilitiesCurrentAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="tgt_LesseeOperatingLeaseOptiontoExtendReasonablyCertain" abstract="false" name="LesseeOperatingLeaseOptiontoExtendReasonablyCertain" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_VendorIncomeReceivableCurrent" abstract="false" name="VendorIncomeReceivableCurrent" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_AccountingPoliciesLineItems" abstract="true" name="AccountingPoliciesLineItems" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="tgt_UnsecuredFixedRate2650Maturing2030Member" abstract="true" name="UnsecuredFixedRate2650Maturing2030Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_WeightedAverageLeaseTermAbstract" abstract="true" name="WeightedAverageLeaseTermAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="tgt_CreditFacilityExpiringOctober2023Member" abstract="true" name="CreditFacilityExpiringOctober2023Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_ConsiderationReceivedFromVendorsDisclosureTextBlock" abstract="false" name="ConsiderationReceivedFromVendorsDisclosureTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="tgt_LesseeFinancingLeaseLeaseNotyetCommencedLiabilityIncurred" abstract="false" name="LesseeFinancingLeaseLeaseNotyetCommencedLiabilityIncurred" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_ExclusiveBrandsMember" abstract="true" name="ExclusiveBrandsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_GraduatedVestingMember" abstract="true" name="GraduatedVestingMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_LesseeOperatingLeaseLeaseNotyetCommencedLiabilityIncurred" abstract="false" name="LesseeOperatingLeaseLeaseNotyetCommencedLiabilityIncurred" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_DefinedBenefitPlanAssumptionsCompoundAnnualRateOfReturnOnPlanAssetsPeriodThree" abstract="false" name="DefinedBenefitPlanAssumptionsCompoundAnnualRateOfReturnOnPlanAssetsPeriodThree" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="tgt_NonqualifiedDeferredCompensationPlanNetExpense" abstract="false" name="NonqualifiedDeferredCompensationPlanNetExpense" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_ScheduleOfAssumptionsUsedInCalculatingNetPeriodicBenefitCostTableTextBlock" abstract="false" name="ScheduleOfAssumptionsUsedInCalculatingNetPeriodicBenefitCostTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="tgt_CliffVestingMember" abstract="true" name="CliffVestingMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_CreditCardProfitSharingMember" abstract="true" name="CreditCardProfitSharingMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_LeaseLiabilityPaymentsDue" abstract="false" name="LeaseLiabilityPaymentsDue" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_StockRepurchasedAndRetiredDuringPeriodNotIncludingFEATUnwindsAndUnsettledSharesValues" abstract="false" name="StockRepurchasedAndRetiredDuringPeriodNotIncludingFEATUnwindsAndUnsettledSharesValues" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_HardlinesMember" abstract="true" name="HardlinesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_CreditFacilityExpiringOctober2027Member" abstract="true" name="CreditFacilityExpiringOctober2027Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_DefinedBenefitPlanAssumptionsCompoundAnnualRateOfReturnOnPlanAssetsPeriodTwo" abstract="false" name="DefinedBenefitPlanAssumptionsCompoundAnnualRateOfReturnOnPlanAssetsPeriodTwo" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="tgt_ContractwithCustomerRightofReturnPeriod" abstract="false" name="ContractwithCustomerRightofReturnPeriod" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="tgt_LeaseLiabilityPaymentsDueAfterYearFive" abstract="false" name="LeaseLiabilityPaymentsDueAfterYearFive" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_LeaseLiabilitiesPaymentsDueAbstract" abstract="true" name="LeaseLiabilitiesPaymentsDueAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="tgt_OtherCurrentAssetsDisclosureAbstract" abstract="true" name="OtherCurrentAssetsDisclosureAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="tgt_DebtInstrumentRedemptionPeriodSevenMember" abstract="true" name="DebtInstrumentRedemptionPeriodSevenMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_LimitOfMatchingContributionOfMembersContributionForDefinedContributionPlan" abstract="false" name="LimitOfMatchingContributionOfMembersContributionForDefinedContributionPlan" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="tgt_DefinedBenefitPlanAssumptionsExpectedMarketRelatedValueOfAssetsAdjustmentsPeriod" abstract="false" name="DefinedBenefitPlanAssumptionsExpectedMarketRelatedValueOfAssetsAdjustmentsPeriod" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="tgt_LeaseLiabilityPaymentsDueYearTwo" abstract="false" name="LeaseLiabilityPaymentsDueYearTwo" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_AccruedAndOtherCurrentLiabilitiesDisclosureTextBlock" abstract="false" name="AccruedAndOtherCurrentLiabilitiesDisclosureTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="tgt_LeaseLiabilitiesNoncurrentAbstract" abstract="true" name="LeaseLiabilitiesNoncurrentAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="tgt_DefinedBenefitPlanAssumptionsCompoundAnnualRateOfReturnPeriodFour" abstract="false" name="DefinedBenefitPlanAssumptionsCompoundAnnualRateOfReturnPeriodFour" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="tgt_ChangeinContractwithCustomerLiabilityRollForward" abstract="true" name="ChangeinContractwithCustomerLiabilityRollForward" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="tgt_PurchaseObligationsMember" abstract="true" name="PurchaseObligationsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_DebtInstrumentRedemptionPeriodSixMember" abstract="true" name="DebtInstrumentRedemptionPeriodSixMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_OtherNoncurrentAssetsDisclosureTextBlock" abstract="false" name="OtherNoncurrentAssetsDisclosureTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="tgt_AccountingPoliciesTable" abstract="true" name="AccountingPoliciesTable" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType"/>
+  <xs:element id="tgt_ScheduleOfAccruedAndOtherCurrentLiabilitiesTableTextBlock" abstract="false" name="ScheduleOfAccruedAndOtherCurrentLiabilitiesTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="tgt_LeaseLiabilityPaymentsDueYearThree" abstract="false" name="LeaseLiabilityPaymentsDueYearThree" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_UnsecuredFixedRate2900DebtMember" abstract="true" name="UnsecuredFixedRate2900DebtMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_DefinedContributionPlanExpensesAbstract" abstract="true" name="DefinedContributionPlanExpensesAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="tgt_NonqualifiedDeferredCompensationPlansBenefitsExpense" abstract="false" name="NonqualifiedDeferredCompensationPlansBenefitsExpense" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_UnsecuredFixedRate1950Maturing2027Member" abstract="true" name="UnsecuredFixedRate1950Maturing2027Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_ConsiderationReceivedFromVendorsPolicyTextBlock" abstract="false" name="ConsiderationReceivedFromVendorsPolicyTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="tgt_ScheduleOfDefinedBenefitPlanAssetsTargetAndActualAllocationsTableTextBlock" abstract="false" name="ScheduleOfDefinedBenefitPlanAssetsTargetAndActualAllocationsTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="tgt_WeightedAverageDiscountRateAbstract" abstract="true" name="WeightedAverageDiscountRateAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="tgt_BeautyandHouseholdEssentialsMember" abstract="true" name="BeautyandHouseholdEssentialsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_ConsiderationReceivedFromVendorsDisclosureAbstract" abstract="true" name="ConsiderationReceivedFromVendorsDisclosureAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="tgt_StandbyLettersofCreditandSuretyBondsMember" abstract="true" name="StandbyLettersofCreditandSuretyBondsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_AdvertisingCostsDisclosureAbstract" abstract="true" name="AdvertisingCostsDisclosureAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="tgt_MaximumInvestmentLimitOfCompensationByParticipantForDefinedContributionPlan" abstract="false" name="MaximumInvestmentLimitOfCompensationByParticipantForDefinedContributionPlan" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="tgt_DefinedBenefitPlanAssumptionsCompoundAnnualRateOfReturnOnPlanAssetsPeriodFour" abstract="false" name="DefinedBenefitPlanAssumptionsCompoundAnnualRateOfReturnOnPlanAssetsPeriodFour" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="tgt_HomeFurnishingsAndDecorMember" abstract="true" name="HomeFurnishingsAndDecorMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_DefinedContributionPlanLiabilityAmount" abstract="false" name="DefinedContributionPlanLiabilityAmount" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_LeaseLiability" abstract="false" name="LeaseLiability" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_DefinedBenefitPlanAssumptionsCompoundAnnualRateOfReturnPeriodThree" abstract="false" name="DefinedBenefitPlanAssumptionsCompoundAnnualRateOfReturnPeriodThree" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="tgt_NonqualifiedUnfundedDeferredCompensationPlanForMembersWithParticipationIn401KLimitedPercentCreditedToAccounts" abstract="false" name="NonqualifiedUnfundedDeferredCompensationPlanForMembersWithParticipationIn401KLimitedPercentCreditedToAccounts" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="tgt_DefinedBenefitPlanAssumptionsCompoundAnnualRateOfReturnOnPlanAssetsPeriodOne" abstract="false" name="DefinedBenefitPlanAssumptionsCompoundAnnualRateOfReturnOnPlanAssetsPeriodOne" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="tgt_FixturesAndEquipmentMember" abstract="true" name="FixturesAndEquipmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_SwapValuationAdjustments" abstract="false" name="SwapValuationAdjustments" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_LeaseLiabilityPaymentsDueYearOne" abstract="false" name="LeaseLiabilityPaymentsDueYearOne" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_OtherComprehensiveIncomeLossForeignCurrencyTranslationAdjustmentAndCashFlowHedgesNetOfTaxPortionAttributableToParent" abstract="false" name="OtherComprehensiveIncomeLossForeignCurrencyTranslationAdjustmentAndCashFlowHedgesNetOfTaxPortionAttributableToParent" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_LesseeLeaseTableTextBlock" abstract="false" name="LesseeLeaseTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="tgt_LeaseLiabilityPaymentsDueYearFour" abstract="false" name="LeaseLiabilityPaymentsDueYearFour" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_LeaseLiabilityPaymentsDueYearFive" abstract="false" name="LeaseLiabilityPaymentsDueYearFive" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_UnsecuredFixedRate45Maturing2032Member" abstract="true" name="UnsecuredFixedRate45Maturing2032Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_AdvertisingCostsDisclosureTextBlock" abstract="false" name="AdvertisingCostsDisclosureTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="tgt_ForwardStartingInterestRateSwapMember" abstract="true" name="ForwardStartingInterestRateSwapMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_DefinedContributionPlansAbstract" abstract="true" name="DefinedContributionPlansAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="tgt_UnsecuredFixedRate2950Maturing2052Member" abstract="true" name="UnsecuredFixedRate2950Maturing2052Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="tgt_AuditInformationAbstract" abstract="true" name="AuditInformationAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="tgt_BookOverdrafts" abstract="false" name="BookOverdrafts" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="tgt_LeaseAssetsAbstract" abstract="true" name="LeaseAssetsAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="tgt_NonqualifiedDeferredCompensationPlansAbstract" abstract="true" name="NonqualifiedDeferredCompensationPlansAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+</xs:schema>

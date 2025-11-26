@@ -1,0 +1,957 @@
+<?xml version='1.0' encoding='utf-8'?>
+<FilingSummary>
+  <Version>3.25.0.1</Version>
+  <ProcessingTime/>
+  <ReportFormat>html</ReportFormat>
+  <ContextCount>172</ContextCount>
+  <ElementCount>424</ElementCount>
+  <EntityCount>1</EntityCount>
+  <FootnotesReported>true</FootnotesReported>
+  <SegmentCount>49</SegmentCount>
+  <ScenarioCount>0</ScenarioCount>
+  <TuplesReported>false</TuplesReported>
+  <UnitCount>10</UnitCount>
+  <MyReports>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R1.htm</HtmlFileName>
+      <LongName>995200090 - Document - Document and Entity Information</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DocumentDocumentAndEntityInformation</Role>
+      <ShortName>Document and Entity Information</ShortName>
+      <MenuCategory>Cover</MenuCategory>
+      <Position>1</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R2.htm</HtmlFileName>
+      <LongName>995200100 - Statement - CONSOLIDATED BALANCE SHEETS</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/StatementConsolidatedBalanceSheets</Role>
+      <ShortName>CONSOLIDATED BALANCE SHEETS</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>2</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R3.htm</HtmlFileName>
+      <LongName>995200105 - Statement - CONSOLIDATED BALANCE SHEETS (Parentheticals)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/StatementConsolidatedBalanceSheetsParentheticals</Role>
+      <ShortName>CONSOLIDATED BALANCE SHEETS (Parentheticals)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>3</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R4.htm</HtmlFileName>
+      <LongName>995200200 - Statement - CONSOLIDATED STATEMENTS OF INCOME</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/StatementConsolidatedStatementsOfIncome</Role>
+      <ShortName>CONSOLIDATED STATEMENTS OF INCOME</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>4</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R5.htm</HtmlFileName>
+      <LongName>995200300 - Statement - CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/StatementConsolidatedStatementsOfComprehensiveIncome</Role>
+      <ShortName>CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>5</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R6.htm</HtmlFileName>
+      <LongName>995200400 - Statement - STATEMENTS OF REDEEMABLE A SHARES AND SHAREHOLDERS' EQUITY</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/StatementStatementsOfRedeemableSharesAndShareholdersEquity</Role>
+      <ShortName>STATEMENTS OF REDEEMABLE A SHARES AND SHAREHOLDERS' EQUITY</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>6</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R7.htm</HtmlFileName>
+      <LongName>995200500 - Statement - CONSOLIDATED STATEMENTS OF CASH FLOWS</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/StatementConsolidatedStatementsOfCashFlows</Role>
+      <ShortName>CONSOLIDATED STATEMENTS OF CASH FLOWS</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>7</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R8.htm</HtmlFileName>
+      <LongName>995210101 - Disclosure - GENERAL</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureGeneral</Role>
+      <ShortName>GENERAL</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>8</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R9.htm</HtmlFileName>
+      <LongName>995210201 - Disclosure - SIGNIFICANT ACCOUNTING POLICIES</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureSignificantAccountingPolicies</Role>
+      <ShortName>SIGNIFICANT ACCOUNTING POLICIES</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>9</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R10.htm</HtmlFileName>
+      <LongName>995210301 - Disclosure - ACQUISITIONS</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureAcquisitions</Role>
+      <ShortName>ACQUISITIONS</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>10</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R11.htm</HtmlFileName>
+      <LongName>995210401 - Disclosure - CASH AND CASH EQUIVALENTS, RESTRICTED CASH, SHORT-TERM DEPOSITS AND MARKETABLE SECURITIES</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureCashAndCashEquivalentsRestrictedCashShortTermDepositsAndMarketableSecurities</Role>
+      <ShortName>CASH AND CASH EQUIVALENTS, RESTRICTED CASH, SHORT-TERM DEPOSITS AND MARKETABLE SECURITIES</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>11</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R12.htm</HtmlFileName>
+      <LongName>995210501 - Disclosure - FAIR VALUE MEASUREMENT</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureFairValueMeasurement</Role>
+      <ShortName>FAIR VALUE MEASUREMENT</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>12</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R13.htm</HtmlFileName>
+      <LongName>995210601 - Disclosure - INVENTORIES</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureInventories</Role>
+      <ShortName>INVENTORIES</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>13</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R14.htm</HtmlFileName>
+      <LongName>995210701 - Disclosure - PROPERTY, PLANT AND EQUIPMENT</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosurePropertyPlantAndEquipment</Role>
+      <ShortName>PROPERTY, PLANT AND EQUIPMENT</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>14</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R15.htm</HtmlFileName>
+      <LongName>995210801 - Disclosure - GOODWILL AND OTHER INTANGIBLE ASSETS, NET</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureGoodwillAndOtherIntangibleAssetsNet</Role>
+      <ShortName>GOODWILL AND OTHER INTANGIBLE ASSETS, NET</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>15</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R16.htm</HtmlFileName>
+      <LongName>995210901 - Disclosure - OTHER ACCOUNTS PAYABLE AND ACCRUED EXPENSES</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureOtherAccountsPayableAndAccruedExpenses</Role>
+      <ShortName>OTHER ACCOUNTS PAYABLE AND ACCRUED EXPENSES</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>16</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R17.htm</HtmlFileName>
+      <LongName>995211001 - Disclosure - CREDIT LINE</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureCreditLine</Role>
+      <ShortName>CREDIT LINE</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>17</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R18.htm</HtmlFileName>
+      <LongName>995211101 - Disclosure - CONTINGENCIES</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureContingencies</Role>
+      <ShortName>CONTINGENCIES</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>18</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R19.htm</HtmlFileName>
+      <LongName>995211201 - Disclosure - LEASES</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureLeases</Role>
+      <ShortName>LEASES</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>19</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R20.htm</HtmlFileName>
+      <LongName>995211301 - Disclosure - SHAREHOLDERS' EQUITY</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureShareholdersEquity</Role>
+      <ShortName>SHAREHOLDERS' EQUITY</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>20</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R21.htm</HtmlFileName>
+      <LongName>995211401 - Disclosure - EARNINGS PER SHARE</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureEarningsPerShare</Role>
+      <ShortName>EARNINGS PER SHARE</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>21</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R22.htm</HtmlFileName>
+      <LongName>995211501 - Disclosure - SEGMENT AND GEOGRAPHIC INFORMATION</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureSegmentAndGeographicInformation</Role>
+      <ShortName>SEGMENT AND GEOGRAPHIC INFORMATION</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>22</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R23.htm</HtmlFileName>
+      <LongName>995211601 - Disclosure - FINANCIAL INCOME, NET</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureFinancialIncomeNet</Role>
+      <ShortName>FINANCIAL INCOME, NET</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>23</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R24.htm</HtmlFileName>
+      <LongName>995211701 - Disclosure - TAXES ON INCOME</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureTaxesOnIncome</Role>
+      <ShortName>TAXES ON INCOME</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>24</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R25.htm</HtmlFileName>
+      <LongName>995211801 - Disclosure - RELATED PARTY TRANSACTIONS</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureRelatedPartyTransactions</Role>
+      <ShortName>RELATED PARTY TRANSACTIONS</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>25</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R26.htm</HtmlFileName>
+      <LongName>995211901 - Disclosure - SUBSEQUENT EVENTS</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureSubsequentEvents</Role>
+      <ShortName>SUBSEQUENT EVENTS</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>26</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R27.htm</HtmlFileName>
+      <LongName>995410 - Disclosure - Pay vs Performance Disclosure</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://xbrl.sec.gov/ecd/role/PvpDisclosure</Role>
+      <ShortName>Pay vs Performance Disclosure</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>27</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R28.htm</HtmlFileName>
+      <LongName>995447 - Disclosure - Insider Trading Policies and Procedures</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://xbrl.sec.gov/ecd/role/InsiderTradingPoliciesProc</Role>
+      <ShortName>Insider Trading Policies and Procedures</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>28</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R29.htm</HtmlFileName>
+      <LongName>995550 - Disclosure - Cybersecurity Risk Management and Strategy Disclosure</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureCybersecurityRiskManagementAndStrategyDisclosure</Role>
+      <ShortName>Cybersecurity Risk Management and Strategy Disclosure</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>29</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R30.htm</HtmlFileName>
+      <LongName>99920202 - Disclosure - SIGNIFICANT ACCOUNTING POLICIES (Policies)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureSignificantAccountingPoliciesPolicies</Role>
+      <ShortName>SIGNIFICANT ACCOUNTING POLICIES (Policies)</ShortName>
+      <MenuCategory>Policies</MenuCategory>
+      <Position>30</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R31.htm</HtmlFileName>
+      <LongName>99930203 - Disclosure - SIGNIFICANT ACCOUNTING POLICIES (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureSignificantAccountingPoliciesTables</Role>
+      <ShortName>SIGNIFICANT ACCOUNTING POLICIES (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://oddity.com/role/DisclosureSignificantAccountingPolicies</ParentRole>
+      <Position>31</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R32.htm</HtmlFileName>
+      <LongName>99930303 - Disclosure - ACQUISITIONS (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureAcquisitionsTables</Role>
+      <ShortName>ACQUISITIONS (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://oddity.com/role/DisclosureAcquisitions</ParentRole>
+      <Position>32</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R33.htm</HtmlFileName>
+      <LongName>99930403 - Disclosure - CASH AND CASH EQUIVALENTS, RESTRICTED CASH, SHORT-TERM DEPOSITS AND MARKETABLE SECURITIES (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureCashAndCashEquivalentsRestrictedCashShortTermDepositsAndMarketableSecuritiesTables</Role>
+      <ShortName>CASH AND CASH EQUIVALENTS, RESTRICTED CASH, SHORT-TERM DEPOSITS AND MARKETABLE SECURITIES (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://oddity.com/role/DisclosureCashAndCashEquivalentsRestrictedCashShortTermDepositsAndMarketableSecurities</ParentRole>
+      <Position>33</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R34.htm</HtmlFileName>
+      <LongName>99930503 - Disclosure - FAIR VALUE MEASUREMENT (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureFairValueMeasurementTables</Role>
+      <ShortName>FAIR VALUE MEASUREMENT (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://oddity.com/role/DisclosureFairValueMeasurement</ParentRole>
+      <Position>34</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R35.htm</HtmlFileName>
+      <LongName>99930603 - Disclosure - INVENTORIES (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureInventoriesTables</Role>
+      <ShortName>INVENTORIES (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://oddity.com/role/DisclosureInventories</ParentRole>
+      <Position>35</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R36.htm</HtmlFileName>
+      <LongName>99930703 - Disclosure - PROPERTY, PLANT AND EQUIPMENT (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosurePropertyPlantAndEquipmentTables</Role>
+      <ShortName>PROPERTY, PLANT AND EQUIPMENT (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://oddity.com/role/DisclosurePropertyPlantAndEquipment</ParentRole>
+      <Position>36</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R37.htm</HtmlFileName>
+      <LongName>99930803 - Disclosure - GOODWILL AND OTHER INTANGIBLE ASSETS, NET (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureGoodwillAndOtherIntangibleAssetsNetTables</Role>
+      <ShortName>GOODWILL AND OTHER INTANGIBLE ASSETS, NET (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://oddity.com/role/DisclosureGoodwillAndOtherIntangibleAssetsNet</ParentRole>
+      <Position>37</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R38.htm</HtmlFileName>
+      <LongName>99930903 - Disclosure - OTHER ACCOUNTS PAYABLE AND ACCRUED EXPENSES (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureOtherAccountsPayableAndAccruedExpensesTables</Role>
+      <ShortName>OTHER ACCOUNTS PAYABLE AND ACCRUED EXPENSES (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://oddity.com/role/DisclosureOtherAccountsPayableAndAccruedExpenses</ParentRole>
+      <Position>38</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R39.htm</HtmlFileName>
+      <LongName>99931203 - Disclosure - LEASES (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureLeasesTables</Role>
+      <ShortName>LEASES (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://oddity.com/role/DisclosureLeases</ParentRole>
+      <Position>39</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R40.htm</HtmlFileName>
+      <LongName>99931303 - Disclosure - SHAREHOLDERS' EQUITY (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureShareholdersEquityTables</Role>
+      <ShortName>SHAREHOLDERS' EQUITY (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://oddity.com/role/DisclosureShareholdersEquity</ParentRole>
+      <Position>40</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R41.htm</HtmlFileName>
+      <LongName>99931403 - Disclosure - EARNINGS PER SHARE (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureEarningsPerShareTables</Role>
+      <ShortName>EARNINGS PER SHARE (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://oddity.com/role/DisclosureEarningsPerShare</ParentRole>
+      <Position>41</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R42.htm</HtmlFileName>
+      <LongName>99931503 - Disclosure - SEGMENT AND GEOGRAPHIC INFORMATION (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureSegmentAndGeographicInformationTables</Role>
+      <ShortName>SEGMENT AND GEOGRAPHIC INFORMATION (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://oddity.com/role/DisclosureSegmentAndGeographicInformation</ParentRole>
+      <Position>42</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R43.htm</HtmlFileName>
+      <LongName>99931603 - Disclosure - FINANCIAL INCOME, NET (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureFinancialIncomeNetTables</Role>
+      <ShortName>FINANCIAL INCOME, NET (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://oddity.com/role/DisclosureFinancialIncomeNet</ParentRole>
+      <Position>43</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R44.htm</HtmlFileName>
+      <LongName>99931703 - Disclosure - TAXES ON INCOME (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureTaxesOnIncomeTables</Role>
+      <ShortName>TAXES ON INCOME (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://oddity.com/role/DisclosureTaxesOnIncome</ParentRole>
+      <Position>44</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R45.htm</HtmlFileName>
+      <LongName>99940201 - Disclosure - SIGNIFICANT ACCOUNTING POLICIES (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureSignificantAccountingPoliciesDetails</Role>
+      <ShortName>SIGNIFICANT ACCOUNTING POLICIES (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://oddity.com/role/DisclosureSignificantAccountingPoliciesTables</ParentRole>
+      <Position>45</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R46.htm</HtmlFileName>
+      <LongName>99940202 - Disclosure - SIGNIFICANT ACCOUNTING POLICIES - Estimated Useful Lives (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureSignificantAccountingPoliciesEstimatedUsefulLivesDetails</Role>
+      <ShortName>SIGNIFICANT ACCOUNTING POLICIES - Estimated Useful Lives (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>46</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R47.htm</HtmlFileName>
+      <LongName>99940203 - Disclosure - SIGNIFICANT ACCOUNTING POLICIES - Intangible Assets Estimated Useful Lives (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureSignificantAccountingPoliciesIntangibleAssetsEstimatedUsefulLivesDetails</Role>
+      <ShortName>SIGNIFICANT ACCOUNTING POLICIES - Intangible Assets Estimated Useful Lives (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>47</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R48.htm</HtmlFileName>
+      <LongName>99940301 - Disclosure - ACQUISITIONS (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureAcquisitionsDetails</Role>
+      <ShortName>ACQUISITIONS (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://oddity.com/role/DisclosureAcquisitionsTables</ParentRole>
+      <Position>48</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R49.htm</HtmlFileName>
+      <LongName>99940302 - Disclosure - ACQUISITIONS - Schedule of purchase price allocation (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureAcquisitionsScheduleOfPurchasePriceAllocationDetails</Role>
+      <ShortName>ACQUISITIONS - Schedule of purchase price allocation (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>49</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R50.htm</HtmlFileName>
+      <LongName>99940401 - Disclosure - CASH AND CASH EQUIVALENTS, RESTRICTED CASH, SHORT-TERM DEPOSITS AND MARKETABLE SECURITIES (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureCashAndCashEquivalentsRestrictedCashShortTermDepositsAndMarketableSecuritiesDetails</Role>
+      <ShortName>CASH AND CASH EQUIVALENTS, RESTRICTED CASH, SHORT-TERM DEPOSITS AND MARKETABLE SECURITIES (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://oddity.com/role/DisclosureCashAndCashEquivalentsRestrictedCashShortTermDepositsAndMarketableSecuritiesTables</ParentRole>
+      <Position>50</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R51.htm</HtmlFileName>
+      <LongName>99940402 - Disclosure - CASH AND CASH EQUIVALENTS, RESTRICTED CASH, SHORT-TERM DEPOSITS AND MARKETABLE SECURITIES - Marketable securities by contractual maturities (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureCashAndCashEquivalentsRestrictedCashShortTermDepositsAndMarketableSecuritiesMarketableSecuritiesByContractualMaturitiesDetails</Role>
+      <ShortName>CASH AND CASH EQUIVALENTS, RESTRICTED CASH, SHORT-TERM DEPOSITS AND MARKETABLE SECURITIES - Marketable securities by contractual maturities (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>51</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R52.htm</HtmlFileName>
+      <LongName>99940403 - Disclosure - CASH AND CASH EQUIVALENTS, RESTRICTED CASH, SHORT-TERM DEPOSITS AND MARKETABLE SECURITIES - Amortized cost and fair value of marketable securities (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureCashAndCashEquivalentsRestrictedCashShortTermDepositsAndMarketableSecuritiesAmortizedCostAndFairValueOfMarketableSecuritiesDetails</Role>
+      <ShortName>CASH AND CASH EQUIVALENTS, RESTRICTED CASH, SHORT-TERM DEPOSITS AND MARKETABLE SECURITIES - Amortized cost and fair value of marketable securities (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>52</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R53.htm</HtmlFileName>
+      <LongName>99940404 - Disclosure - CASH AND CASH EQUIVALENTS, RESTRICTED CASH, SHORT-TERM DEPOSITS AND MARKETABLE SECURITIES - Additional information (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureCashAndCashEquivalentsRestrictedCashShortTermDepositsAndMarketableSecuritiesAdditionalInformationDetails</Role>
+      <ShortName>CASH AND CASH EQUIVALENTS, RESTRICTED CASH, SHORT-TERM DEPOSITS AND MARKETABLE SECURITIES - Additional information (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>53</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R54.htm</HtmlFileName>
+      <LongName>99940501 - Disclosure - FAIR VALUE MEASUREMENT (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureFairValueMeasurementDetails</Role>
+      <ShortName>FAIR VALUE MEASUREMENT (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://oddity.com/role/DisclosureFairValueMeasurementTables</ParentRole>
+      <Position>54</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R55.htm</HtmlFileName>
+      <LongName>99940601 - Disclosure - INVENTORIES (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureInventoriesDetails</Role>
+      <ShortName>INVENTORIES (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://oddity.com/role/DisclosureInventoriesTables</ParentRole>
+      <Position>55</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R56.htm</HtmlFileName>
+      <LongName>99940701 - Disclosure - PROPERTY, PLANT AND EQUIPMENT (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosurePropertyPlantAndEquipmentDetails</Role>
+      <ShortName>PROPERTY, PLANT AND EQUIPMENT (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://oddity.com/role/DisclosurePropertyPlantAndEquipmentTables</ParentRole>
+      <Position>56</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R57.htm</HtmlFileName>
+      <LongName>99940801 - Disclosure - GOODWILL AND OTHER INTANGIBLE ASSETS, NET - Goodwill (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureGoodwillAndOtherIntangibleAssetsNetGoodwillDetails</Role>
+      <ShortName>GOODWILL AND OTHER INTANGIBLE ASSETS, NET - Goodwill (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>57</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R58.htm</HtmlFileName>
+      <LongName>99940802 - Disclosure - GOODWILL AND OTHER INTANGIBLE ASSETS, NET - Other intangible assets, net (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureGoodwillAndOtherIntangibleAssetsNetOtherIntangibleAssetsNetDetails</Role>
+      <ShortName>GOODWILL AND OTHER INTANGIBLE ASSETS, NET - Other intangible assets, net (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>58</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R59.htm</HtmlFileName>
+      <LongName>99940803 - Disclosure - GOODWILL AND OTHER INTANGIBLE ASSETS, NET - Future amortization expense (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureGoodwillAndOtherIntangibleAssetsNetFutureAmortizationExpenseDetails</Role>
+      <ShortName>GOODWILL AND OTHER INTANGIBLE ASSETS, NET - Future amortization expense (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>59</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R60.htm</HtmlFileName>
+      <LongName>99940901 - Disclosure - OTHER ACCOUNTS PAYABLE AND ACCRUED EXPENSES (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureOtherAccountsPayableAndAccruedExpensesDetails</Role>
+      <ShortName>OTHER ACCOUNTS PAYABLE AND ACCRUED EXPENSES (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://oddity.com/role/DisclosureOtherAccountsPayableAndAccruedExpensesTables</ParentRole>
+      <Position>60</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R61.htm</HtmlFileName>
+      <LongName>99941001 - Disclosure - CREDIT LINE (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureCreditLineDetails</Role>
+      <ShortName>CREDIT LINE (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://oddity.com/role/DisclosureCreditLine</ParentRole>
+      <Position>61</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R62.htm</HtmlFileName>
+      <LongName>99941201 - Disclosure - LEASES - (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureLeasesDetails</Role>
+      <ShortName>LEASES - (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>62</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R63.htm</HtmlFileName>
+      <LongName>99941202 - Disclosure - LEASES - Supplemental balance sheet information related to operating leases (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureLeasesSupplementalBalanceSheetInformationRelatedToOperatingLeasesDetails</Role>
+      <ShortName>LEASES - Supplemental balance sheet information related to operating leases (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>63</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R64.htm</HtmlFileName>
+      <LongName>99941203 - Disclosure - LEASES - Future minimum lease payments under non-cancelable operating lease agreements (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureLeasesFutureMinimumLeasePaymentsUnderNonCancelableOperatingLeaseAgreementsDetails</Role>
+      <ShortName>LEASES - Future minimum lease payments under non-cancelable operating lease agreements (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>64</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R65.htm</HtmlFileName>
+      <LongName>99941301 - Disclosure - SHAREHOLDERS' EQUITY - Narratives (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureShareholdersEquityNarrativesDetails</Role>
+      <ShortName>SHAREHOLDERS' EQUITY - Narratives (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>65</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R66.htm</HtmlFileName>
+      <LongName>99941302 - Disclosure - SHAREHOLDERS' EQUITY - Schedule of company's stock option activity (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureShareholdersEquityScheduleOfCompanySStockOptionActivityDetails</Role>
+      <ShortName>SHAREHOLDERS' EQUITY - Schedule of company's stock option activity (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>66</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R67.htm</HtmlFileName>
+      <LongName>99941303 - Disclosure - SHAREHOLDERS' EQUITY - Schedule of weighted average assumptions (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureShareholdersEquityScheduleOfWeightedAverageAssumptionsDetails</Role>
+      <ShortName>SHAREHOLDERS' EQUITY - Schedule of weighted average assumptions (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>67</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R68.htm</HtmlFileName>
+      <LongName>99941304 - Disclosure - SHAREHOLDERS' EQUITY - Schedule of Unvested RSUs (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureShareholdersEquityScheduleOfUnvestedRsusDetails</Role>
+      <ShortName>SHAREHOLDERS' EQUITY - Schedule of Unvested RSUs (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>68</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R69.htm</HtmlFileName>
+      <LongName>99941401 - Disclosure - EARNINGS PER SHARE - Additional Information (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureEarningsPerShareAdditionalInformationDetails</Role>
+      <ShortName>EARNINGS PER SHARE - Additional Information (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>69</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R70.htm</HtmlFileName>
+      <LongName>99941402 - Disclosure - EARNINGS PER SHARE - Computation of basic and diluted earnings per share (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureEarningsPerShareComputationOfBasicAndDilutedEarningsPerShareDetails</Role>
+      <ShortName>EARNINGS PER SHARE - Computation of basic and diluted earnings per share (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>70</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R71.htm</HtmlFileName>
+      <LongName>99941501 - Disclosure - SEGMENT AND GEOGRAPHIC INFORMATION - Schedule of Segment information (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureSegmentAndGeographicInformationScheduleOfSegmentInformationDetails</Role>
+      <ShortName>SEGMENT AND GEOGRAPHIC INFORMATION - Schedule of Segment information (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>71</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R72.htm</HtmlFileName>
+      <LongName>99941502 - Disclosure - SEGMENT AND GEOGRAPHIC INFORMATION - Long-lived assets (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureSegmentAndGeographicInformationLongLivedAssetsDetails</Role>
+      <ShortName>SEGMENT AND GEOGRAPHIC INFORMATION - Long-lived assets (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>72</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R73.htm</HtmlFileName>
+      <LongName>99941503 - Disclosure - SEGMENT AND GEOGRAPHIC INFORMATION - Revenue from customers (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureSegmentAndGeographicInformationRevenueFromCustomersDetails</Role>
+      <ShortName>SEGMENT AND GEOGRAPHIC INFORMATION - Revenue from customers (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>73</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R74.htm</HtmlFileName>
+      <LongName>99941601 - Disclosure - FINANCIAL INCOME, NET (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureFinancialIncomeNetDetails</Role>
+      <ShortName>FINANCIAL INCOME, NET (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://oddity.com/role/DisclosureFinancialIncomeNetTables</ParentRole>
+      <Position>74</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R75.htm</HtmlFileName>
+      <LongName>99941701 - Disclosure - TAXES ON INCOME - Narratives (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureTaxesOnIncomeNarrativesDetails</Role>
+      <ShortName>TAXES ON INCOME - Narratives (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>75</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R76.htm</HtmlFileName>
+      <LongName>99941702 - Disclosure - TAXES ON INCOME - Deferred income taxes (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureTaxesOnIncomeDeferredIncomeTaxesDetails</Role>
+      <ShortName>TAXES ON INCOME - Deferred income taxes (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>76</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R77.htm</HtmlFileName>
+      <LongName>99941703 - Disclosure - TAXES ON INCOME - Effective tax rate reconciliation (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureTaxesOnIncomeEffectiveTaxRateReconciliationDetails</Role>
+      <ShortName>TAXES ON INCOME - Effective tax rate reconciliation (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>77</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R78.htm</HtmlFileName>
+      <LongName>99941704 - Disclosure - TAXES ON INCOME - Income Tax Expense (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureTaxesOnIncomeIncomeTaxExpenseDetails</Role>
+      <ShortName>TAXES ON INCOME - Income Tax Expense (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>78</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R79.htm</HtmlFileName>
+      <LongName>99941705 - Disclosure - TAXES ON INCOME - Unrecognized tax benefits (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureTaxesOnIncomeUnrecognizedTaxBenefitsDetails</Role>
+      <ShortName>TAXES ON INCOME - Unrecognized tax benefits (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>79</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R80.htm</HtmlFileName>
+      <LongName>99941801 - Disclosure - RELATED PARTY TRANSACTIONS (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureRelatedPartyTransactionsDetails</Role>
+      <ShortName>RELATED PARTY TRANSACTIONS (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://oddity.com/role/DisclosureRelatedPartyTransactions</ParentRole>
+      <Position>80</Position>
+    </Report>
+    <Report instance="odd-20241231x20f.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R81.htm</HtmlFileName>
+      <LongName>99941901 - Disclosure - SUBSEQUENT EVENTS (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://oddity.com/role/DisclosureSubsequentEventsDetails</Role>
+      <ShortName>SUBSEQUENT EVENTS (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://oddity.com/role/DisclosureSubsequentEvents</ParentRole>
+      <Position>81</Position>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>All Reports</LongName>
+      <ReportType>Book</ReportType>
+      <ShortName>All Reports</ShortName>
+    </Report>
+  </MyReports>
+  <InputFiles>
+    <File>odd-20241231.xsd</File>
+    <File>odd-20241231_cal.xml</File>
+    <File>odd-20241231_def.xml</File>
+    <File>odd-20241231_lab.xml</File>
+    <File>odd-20241231_pre.xml</File>
+    <File doctype="20-F" isDefinitelyFs="true" isUsgaap="true" original="odd-20241231x20f.htm">odd-20241231x20f.htm</File>
+  </InputFiles>
+  <SupplementalFiles>
+    <File>odd-20241231x20f011.jpg</File>
+  </SupplementalFiles>
+  <BaseTaxonomies>
+    <BaseTaxonomy items="831">http://fasb.org/us-gaap/2023</BaseTaxonomy>
+    <BaseTaxonomy items="44">http://xbrl.sec.gov/dei/2023</BaseTaxonomy>
+    <BaseTaxonomy items="1">http://xbrl.sec.gov/ecd/2023</BaseTaxonomy>
+  </BaseTaxonomies>
+  <HasPresentationLinkbase>true</HasPresentationLinkbase>
+  <HasCalculationLinkbase>true</HasCalculationLinkbase>
+</FilingSummary>

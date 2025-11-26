@@ -1,0 +1,985 @@
+<?xml version='1.0' encoding='utf-8'?>
+<FilingSummary>
+  <Version>3.24.0.1</Version>
+  <ProcessingTime/>
+  <ReportFormat>html</ReportFormat>
+  <ContextCount>290</ContextCount>
+  <ElementCount>467</ElementCount>
+  <EntityCount>1</EntityCount>
+  <FootnotesReported>true</FootnotesReported>
+  <SegmentCount>98</SegmentCount>
+  <ScenarioCount>0</ScenarioCount>
+  <TuplesReported>false</TuplesReported>
+  <UnitCount>7</UnitCount>
+  <MyReports>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R1.htm</HtmlFileName>
+      <LongName>100000 - Document - Document and Entity Information</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DocumentDocumentAndEntityInformation</Role>
+      <ShortName>Document and Entity Information</ShortName>
+      <MenuCategory>Cover</MenuCategory>
+      <Position>1</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R2.htm</HtmlFileName>
+      <LongName>100010 - Statement - Consolidated Balance Sheets</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_StatementConsolidatedBalanceSheets</Role>
+      <ShortName>Consolidated Balance Sheets</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>2</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R3.htm</HtmlFileName>
+      <LongName>100020 - Statement - Consolidated Balance Sheets (Parenthetical)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_StatementConsolidatedBalanceSheetsParenthetical</Role>
+      <ShortName>Consolidated Balance Sheets (Parenthetical)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>3</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R4.htm</HtmlFileName>
+      <LongName>100030 - Statement - Consolidated Statements Of Income</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_StatementConsolidatedStatementsOfIncome</Role>
+      <ShortName>Consolidated Statements Of Income</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>4</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R5.htm</HtmlFileName>
+      <LongName>100040 - Statement - Consolidated Statements Of Comprehensive Income</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_StatementConsolidatedStatementsOfComprehensiveIncome</Role>
+      <ShortName>Consolidated Statements Of Comprehensive Income</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>5</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R6.htm</HtmlFileName>
+      <LongName>100050 - Statement - Consolidated Statements of Stockholders' Equity</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_StatementConsolidatedStatementsOfStockholdersEquity</Role>
+      <ShortName>Consolidated Statements of Stockholders' Equity</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>6</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R7.htm</HtmlFileName>
+      <LongName>100060 - Statement - Consolidated Statements of Stockholders' Equity (Parenthetical)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/StatementConsolidatedStatementsOfStockholdersEquityParenthetical</Role>
+      <ShortName>Consolidated Statements of Stockholders' Equity (Parenthetical)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>7</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R8.htm</HtmlFileName>
+      <LongName>100070 - Statement - Consolidated Statements of Cash Flows</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_StatementConsolidatedStatementsOfCashFlows</Role>
+      <ShortName>Consolidated Statements of Cash Flows</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>8</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R9.htm</HtmlFileName>
+      <LongName>100080 - Disclosure - Description of the Company</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureDescriptionOfCompany</Role>
+      <ShortName>Description of the Company</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>9</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R10.htm</HtmlFileName>
+      <LongName>100090 - Disclosure - Summary of Significant Accounting Policies</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureSummaryOfSignificantAccountingPolicies</Role>
+      <ShortName>Summary of Significant Accounting Policies</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>10</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R11.htm</HtmlFileName>
+      <LongName>100100 - Disclosure - Business Acquisitions</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/DisclosureBusinessAcquisitions1</Role>
+      <ShortName>Business Acquisitions</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>11</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R12.htm</HtmlFileName>
+      <LongName>100110 - Disclosure - Recent Accounting Pronouncements</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureRecentAccountingPronouncements</Role>
+      <ShortName>Recent Accounting Pronouncements</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>12</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R13.htm</HtmlFileName>
+      <LongName>100120 - Disclosure - Financial Instruments</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureFinancialInstruments</Role>
+      <ShortName>Financial Instruments</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>13</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R14.htm</HtmlFileName>
+      <LongName>100130 - Disclosure - Revenue Recognition</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureRevenueRecognition</Role>
+      <ShortName>Revenue Recognition</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>14</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R15.htm</HtmlFileName>
+      <LongName>100140 - Disclosure - Student Receivables</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureStudentReceivables</Role>
+      <ShortName>Student Receivables</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>15</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R16.htm</HtmlFileName>
+      <LongName>100150 - Disclosure - Property and Equipment</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosurePropertyAndEquipment</Role>
+      <ShortName>Property and Equipment</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>16</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R17.htm</HtmlFileName>
+      <LongName>100160 - Disclosure - Leases</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureLeases</Role>
+      <ShortName>Leases</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>17</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R18.htm</HtmlFileName>
+      <LongName>100170 - Disclosure - Goodwill and Other Intangible Assets</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureGoodwillAndOtherIntangibleAssets</Role>
+      <ShortName>Goodwill and Other Intangible Assets</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>18</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R19.htm</HtmlFileName>
+      <LongName>100180 - Disclosure - Credit Agreement</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureCreditAgreement</Role>
+      <ShortName>Credit Agreement</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>19</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R20.htm</HtmlFileName>
+      <LongName>100190 - Disclosure - Contingencies</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureContingencies</Role>
+      <ShortName>Contingencies</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>20</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R21.htm</HtmlFileName>
+      <LongName>100200 - Disclosure - Income Taxes</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureIncomeTaxes</Role>
+      <ShortName>Income Taxes</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>21</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R22.htm</HtmlFileName>
+      <LongName>100210 - Disclosure - Share-Based Compensation</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureShareBasedCompensation</Role>
+      <ShortName>Share-Based Compensation</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>22</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R23.htm</HtmlFileName>
+      <LongName>100220 - Disclosure - Stock Repurchase Program</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureStockRepurchaseProgram</Role>
+      <ShortName>Stock Repurchase Program</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>23</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R24.htm</HtmlFileName>
+      <LongName>100230 - Disclosure - Weighted Average Common Shares</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureWeightedAverageCommonShares</Role>
+      <ShortName>Weighted Average Common Shares</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>24</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R25.htm</HtmlFileName>
+      <LongName>100240 - Disclosure - Employee Benefit Plans</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureEmployeeBenefitPlans</Role>
+      <ShortName>Employee Benefit Plans</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>25</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R26.htm</HtmlFileName>
+      <LongName>100250 - Disclosure - Segment Reporting</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureSegmentReporting</Role>
+      <ShortName>Segment Reporting</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>26</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R27.htm</HtmlFileName>
+      <LongName>100260 - Disclosure - Subsequent Events</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/DisclosureSubsequentEvents</Role>
+      <ShortName>Subsequent Events</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>27</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R28.htm</HtmlFileName>
+      <LongName>100270 - Disclosure - Valuation and Qualifying Accounts</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureValuationAndQualifyingAccounts</Role>
+      <ShortName>Valuation and Qualifying Accounts</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>28</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R29.htm</HtmlFileName>
+      <LongName>100280 - Disclosure - Summary of Significant Accounting Policies (Policies)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureSummaryOfSignificantAccountingPoliciesPolicies</Role>
+      <ShortName>Summary of Significant Accounting Policies (Policies)</ShortName>
+      <MenuCategory>Policies</MenuCategory>
+      <ParentRole>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureSummaryOfSignificantAccountingPolicies</ParentRole>
+      <Position>29</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R30.htm</HtmlFileName>
+      <LongName>100290 - Disclosure - Business Acquisitions (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/DisclosureBusinessAcquisitionsTables</Role>
+      <ShortName>Business Acquisitions (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.perdoceoed.com/20231231/taxonomy/role/DisclosureBusinessAcquisitions1</ParentRole>
+      <Position>30</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R31.htm</HtmlFileName>
+      <LongName>100300 - Disclosure - Financial Instruments (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureFinancialInstrumentsTables</Role>
+      <ShortName>Financial Instruments (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureFinancialInstruments</ParentRole>
+      <Position>31</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R32.htm</HtmlFileName>
+      <LongName>100310 - Disclosure - Revenue Recognition (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureRevenueRecognitionTables</Role>
+      <ShortName>Revenue Recognition (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureRevenueRecognition</ParentRole>
+      <Position>32</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R33.htm</HtmlFileName>
+      <LongName>100320 - Disclosure - Student Receivables (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureStudentReceivablesTables</Role>
+      <ShortName>Student Receivables (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureStudentReceivables</ParentRole>
+      <Position>33</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R34.htm</HtmlFileName>
+      <LongName>100330 - Disclosure - Property and Equipment (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosurePropertyAndEquipmentTables</Role>
+      <ShortName>Property and Equipment (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosurePropertyAndEquipment</ParentRole>
+      <Position>34</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R35.htm</HtmlFileName>
+      <LongName>100340 - Disclosure - Leases (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureLeasesTables</Role>
+      <ShortName>Leases (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureLeases</ParentRole>
+      <Position>35</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R36.htm</HtmlFileName>
+      <LongName>100350 - Disclosure - Goodwill and Other Intangible Assets (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureGoodwillAndOtherIntangibleAssetsTables</Role>
+      <ShortName>Goodwill and Other Intangible Assets (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureGoodwillAndOtherIntangibleAssets</ParentRole>
+      <Position>36</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R37.htm</HtmlFileName>
+      <LongName>100360 - Disclosure - Credit Agreement (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureCreditAgreementTables</Role>
+      <ShortName>Credit Agreement (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureCreditAgreement</ParentRole>
+      <Position>37</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R38.htm</HtmlFileName>
+      <LongName>100370 - Disclosure - Income Taxes (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureIncomeTaxesTables</Role>
+      <ShortName>Income Taxes (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureIncomeTaxes</ParentRole>
+      <Position>38</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R39.htm</HtmlFileName>
+      <LongName>100380 - Disclosure - Share-Based Compensation (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureShareBasedCompensationTables</Role>
+      <ShortName>Share-Based Compensation (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureShareBasedCompensation</ParentRole>
+      <Position>39</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R40.htm</HtmlFileName>
+      <LongName>100390 - Disclosure - Weighted Average Common Shares (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureWeightedAverageCommonSharesTables</Role>
+      <ShortName>Weighted Average Common Shares (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureWeightedAverageCommonShares</ParentRole>
+      <Position>40</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R41.htm</HtmlFileName>
+      <LongName>100400 - Disclosure - Segment Reporting (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureSegmentReportingTables</Role>
+      <ShortName>Segment Reporting (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureSegmentReporting</ParentRole>
+      <Position>41</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R42.htm</HtmlFileName>
+      <LongName>100410 - Disclosure - Summary of Significant Accounting Policies - Additional Information (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureSummaryOfSignificantAccountingPoliciesAdditionalInformationDetail</Role>
+      <ShortName>Summary of Significant Accounting Policies - Additional Information (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>42</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R43.htm</HtmlFileName>
+      <LongName>100420 - Disclosure - Business Acquisitions - Additional Information (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/DisclosureBusinessAcquisitionsAdditionalInformationDetail</Role>
+      <ShortName>Business Acquisitions - Additional Information (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>43</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R44.htm</HtmlFileName>
+      <LongName>100430 - Disclosure - Business Acquisitions - Summary of Fair Values of Assets Acquired and Liabilities Assumed (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureBusinessAcquisitionsSummaryOfFairValuesOfAssetsAcquiredAndLiabilitiesAssumedDetail</Role>
+      <ShortName>Business Acquisitions - Summary of Fair Values of Assets Acquired and Liabilities Assumed (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>44</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R45.htm</HtmlFileName>
+      <LongName>100440 - Disclosure - Financial Instruments - Summary of Investments (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureFinancialInstrumentsSummaryOfInvestmentsDetail</Role>
+      <ShortName>Financial Instruments - Summary of Investments (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>45</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R46.htm</HtmlFileName>
+      <LongName>100450 - Disclosure - Financial Instruments - Additional Information (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureFinancialInstrumentsAdditionalInformationDetail</Role>
+      <ShortName>Financial Instruments - Additional Information (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>46</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R47.htm</HtmlFileName>
+      <LongName>100460 - Disclosure - Financial Instruments - Schedule of Available-for-Sale Investments (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureFinancialInstrumentsScheduleOfAvailableForSaleInvestmentsDetail</Role>
+      <ShortName>Financial Instruments - Schedule of Available-for-Sale Investments (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>47</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R48.htm</HtmlFileName>
+      <LongName>100470 - Disclosure - Financial Instruments - Schedule of Maintenance Fee Payment to Our Equity Affiliate (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/DisclosureFinancialInstrumentsScheduleOfMaintenanceFeePaymentToOurEquityAffiliateDetail</Role>
+      <ShortName>Financial Instruments - Schedule of Maintenance Fee Payment to Our Equity Affiliate (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>48</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R49.htm</HtmlFileName>
+      <LongName>100480 - Disclosure - Revenue Recognition - Summary of Disaggregation of Revenue by Major Source (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureRevenueRecognitionSummaryOfDisaggregationOfRevenueByMajorSourceDetail</Role>
+      <ShortName>Revenue Recognition - Summary of Disaggregation of Revenue by Major Source (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>49</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R50.htm</HtmlFileName>
+      <LongName>100490 - Disclosure - Revenue Recognition - Additional Information (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureRevenueRecognitionAdditionalInformationDetail</Role>
+      <ShortName>Revenue Recognition - Additional Information (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>50</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R51.htm</HtmlFileName>
+      <LongName>100500 - Disclosure - Revenue Recognition - Summary of Deferred Revenue Balances Offset with Contract Assets (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureRevenueRecognitionSummaryOfDeferredRevenueBalancesOffsetWithContractAssetsDetail</Role>
+      <ShortName>Revenue Recognition - Summary of Deferred Revenue Balances Offset with Contract Assets (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>51</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R52.htm</HtmlFileName>
+      <LongName>100510 - Disclosure - Revenue Recognition - Changes in Deferred Revenue Balances (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureRevenueRecognitionChangesInDeferredRevenueBalancesDetail</Role>
+      <ShortName>Revenue Recognition - Changes in Deferred Revenue Balances (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>52</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R53.htm</HtmlFileName>
+      <LongName>100520 - Disclosure - Student Receivables - Additional Information (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureStudentReceivablesAdditionalInformationDetail</Role>
+      <ShortName>Student Receivables - Additional Information (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>53</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R54.htm</HtmlFileName>
+      <LongName>100530 - Disclosure - Student Receivables - Changes in Current and Non-Current Allowance For Credit Losses (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureStudentReceivablesChangesInCurrentAndNonCurrentAllowanceForCreditLossesDetail</Role>
+      <ShortName>Student Receivables - Changes in Current and Non-Current Allowance For Credit Losses (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>54</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R55.htm</HtmlFileName>
+      <LongName>100540 - Disclosure - Property and Equipment - Schedule of Cost Basis and Estimated Useful Lives of Property and Equipment (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosurePropertyAndEquipmentScheduleOfCostBasisAndEstimatedUsefulLivesOfPropertyAndEquipmentDetail</Role>
+      <ShortName>Property and Equipment - Schedule of Cost Basis and Estimated Useful Lives of Property and Equipment (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>55</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R56.htm</HtmlFileName>
+      <LongName>100550 - Disclosure - Property and Equipment - Additional Information (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosurePropertyAndEquipmentAdditionalInformationDetail</Role>
+      <ShortName>Property and Equipment - Additional Information (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>56</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R57.htm</HtmlFileName>
+      <LongName>100560 - Disclosure - Leases - Additional Information (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureLeasesAdditionalInformationDetail</Role>
+      <ShortName>Leases - Additional Information (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>57</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R58.htm</HtmlFileName>
+      <LongName>100570 - Disclosure - Leases - Schedule of Quantitative Information Related to Leases (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureLeasesScheduleOfQuantitativeInformationRelatedToLeasesDetail</Role>
+      <ShortName>Leases - Schedule of Quantitative Information Related to Leases (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>58</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R59.htm</HtmlFileName>
+      <LongName>100580 - Disclosure - Leases - Schedule of Future Minimum Lease Payments under Operating Leases Included in Lease Liabilities for Continuing Operations (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureLeasesScheduleOfFutureMinimumLeasePaymentsUnderOperatingLeasesIncludedInLeaseLiabilitiesForContinuingOperationsDetail</Role>
+      <ShortName>Leases - Schedule of Future Minimum Lease Payments under Operating Leases Included in Lease Liabilities for Continuing Operations (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>59</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R60.htm</HtmlFileName>
+      <LongName>100600 - Disclosure - Goodwill and Other Intangible Assets - Additional Information (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureGoodwillAndOtherIntangibleAssetsAdditionalInformationDetail</Role>
+      <ShortName>Goodwill and Other Intangible Assets - Additional Information (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>60</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R61.htm</HtmlFileName>
+      <LongName>100610 - Disclosure - Goodwill and Other Intangible Assets - Schedule of Reconciliation of Changes in Carrying Value of Goodwill (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureGoodwillAndOtherIntangibleAssetsScheduleOfReconciliationOfChangesInCarryingValueOfGoodwillDetail</Role>
+      <ShortName>Goodwill and Other Intangible Assets - Schedule of Reconciliation of Changes in Carrying Value of Goodwill (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>61</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R62.htm</HtmlFileName>
+      <LongName>100620 - Disclosure - Goodwill and Other Intangible Assets - Schedule of Net Book Value of Intangible Assets Other Than Goodwill (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureGoodwillAndOtherIntangibleAssetsScheduleOfNetBookValueOfIntangibleAssetsOtherThanGoodwillDetail</Role>
+      <ShortName>Goodwill and Other Intangible Assets - Schedule of Net Book Value of Intangible Assets Other Than Goodwill (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>62</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R63.htm</HtmlFileName>
+      <LongName>100630 - Disclosure - Credit Agreement - Additional Information (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureCreditAgreementAdditionalInformationDetail</Role>
+      <ShortName>Credit Agreement - Additional Information (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>63</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R64.htm</HtmlFileName>
+      <LongName>100640 - Disclosure - Credit Agreement - Schedule of Credit Agreement (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureCreditAgreementScheduleOfCreditAgreementDetail</Role>
+      <ShortName>Credit Agreement - Schedule of Credit Agreement (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>64</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R65.htm</HtmlFileName>
+      <LongName>100650 - Disclosure - Credit Agreement - Schedule of Credit Agreement (Parenthetical) (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureCreditAgreementScheduleOfCreditAgreementParentheticalDetail</Role>
+      <ShortName>Credit Agreement - Schedule of Credit Agreement (Parenthetical) (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>65</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R66.htm</HtmlFileName>
+      <LongName>100660 - Disclosure - Contingencies - Additional Information (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureContingenciesAdditionalInformationDetail</Role>
+      <ShortName>Contingencies - Additional Information (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>66</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R67.htm</HtmlFileName>
+      <LongName>100670 - Disclosure - Income Taxes - Additional Information (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureIncomeTaxesAdditionalInformationDetail</Role>
+      <ShortName>Income Taxes - Additional Information (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>67</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R68.htm</HtmlFileName>
+      <LongName>100680 - Disclosure - Income Taxes - Schedule of Provision for Income Taxes (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/DisclosureIncomeTaxesScheduleOfProvisionForIncomeTaxesDetail</Role>
+      <ShortName>Income Taxes - Schedule of Provision for Income Taxes (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>68</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R69.htm</HtmlFileName>
+      <LongName>100690 - Disclosure - Income Taxes - Schedule of Reconciliation of Statutory U.S. Federal Income Tax Rate to Effective Income Tax Rate (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/DisclosureIncomeTaxesScheduleOfReconciliationOfStatutoryUsFederalIncomeTaxRateToEffectiveIncomeTaxRateDetail</Role>
+      <ShortName>Income Taxes - Schedule of Reconciliation of Statutory U.S. Federal Income Tax Rate to Effective Income Tax Rate (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>69</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R70.htm</HtmlFileName>
+      <LongName>100700 - Disclosure - Income Taxes - Schedule of Reconciliation of Beginning and Ending Amount of Gross Unrecognized Tax Benefits (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureIncomeTaxesScheduleOfReconciliationOfBeginningAndEndingAmountOfGrossUnrecognizedTaxBenefitsDetail</Role>
+      <ShortName>Income Taxes - Schedule of Reconciliation of Beginning and Ending Amount of Gross Unrecognized Tax Benefits (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>70</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R71.htm</HtmlFileName>
+      <LongName>100710 - Disclosure - Income Taxes - Schedule of Components of Deferred Income Tax Assets and Liabilities (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/DisclosureIncomeTaxesScheduleOfComponentsOfDeferredIncomeTaxAssetsAndLiabilitiesDetail</Role>
+      <ShortName>Income Taxes - Schedule of Components of Deferred Income Tax Assets and Liabilities (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>71</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R72.htm</HtmlFileName>
+      <LongName>100720 - Disclosure - Share-Based Compensation - Additional Information (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureShareBasedCompensationAdditionalInformationDetail</Role>
+      <ShortName>Share-Based Compensation - Additional Information (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>72</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R73.htm</HtmlFileName>
+      <LongName>100730 - Disclosure - Share-Based Compensation - Summary of Stock Option Activity (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureShareBasedCompensationSummaryOfStockOptionActivityDetail</Role>
+      <ShortName>Share-Based Compensation - Summary of Stock Option Activity (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>73</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R74.htm</HtmlFileName>
+      <LongName>100740 - Disclosure - Share-Based Compensation - Schedule of Information with Respect to Outstanding and Exercisable Stock Options (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureShareBasedCompensationScheduleOfInformationWithRespectToOutstandingAndExercisableStockOptionsDetail</Role>
+      <ShortName>Share-Based Compensation - Schedule of Information with Respect to Outstanding and Exercisable Stock Options (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>74</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R75.htm</HtmlFileName>
+      <LongName>100750 - Disclosure - Share-Based Compensation - Schedule of Information with Respect to all Outstanding Restricted Stock (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureShareBasedCompensationScheduleOfInformationWithRespectToAllOutstandingRestrictedStockDetail</Role>
+      <ShortName>Share-Based Compensation - Schedule of Information with Respect to all Outstanding Restricted Stock (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>75</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R76.htm</HtmlFileName>
+      <LongName>100760 - Disclosure - Share-Based Compensation - Summary of Total Stock Based Compensation Expense (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureShareBasedCompensationSummaryOfTotalStockBasedCompensationExpenseDetail</Role>
+      <ShortName>Share-Based Compensation - Summary of Total Stock Based Compensation Expense (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>76</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R77.htm</HtmlFileName>
+      <LongName>100770 - Disclosure - Stock Repurchase Program - Additional Information (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureStockRepurchaseProgramAdditionalInformationDetail</Role>
+      <ShortName>Stock Repurchase Program - Additional Information (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>77</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R78.htm</HtmlFileName>
+      <LongName>100780 - Disclosure - Weighted Average Common Shares - Summary of Weighted Average Numbers of Common Shares Used to Compute Basic and Diluted Net Income Per Share (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureWeightedAverageCommonSharesSummaryOfWeightedAverageNumbersOfCommonSharesUsedToComputeBasicAndDilutedNetIncomePerShareDetail</Role>
+      <ShortName>Weighted Average Common Shares - Summary of Weighted Average Numbers of Common Shares Used to Compute Basic and Diluted Net Income Per Share (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>78</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R79.htm</HtmlFileName>
+      <LongName>100790 - Disclosure - Weighted Average Common Shares - Additional Information (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureWeightedAverageCommonSharesAdditionalInformationDetail</Role>
+      <ShortName>Weighted Average Common Shares - Additional Information (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>79</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R80.htm</HtmlFileName>
+      <LongName>100800 - Disclosure - Employee Benefit Plans - Additional Information (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureEmployeeBenefitPlansAdditionalInformationDetail</Role>
+      <ShortName>Employee Benefit Plans - Additional Information (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>80</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R81.htm</HtmlFileName>
+      <LongName>100810 - Disclosure - Segment Reporting - Additional Information (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureSegmentReportingAdditionalInformationDetail</Role>
+      <ShortName>Segment Reporting - Additional Information (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>81</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R82.htm</HtmlFileName>
+      <LongName>100820 - Disclosure - Segment Reporting - Summary Financial Information by Reporting Segment (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureSegmentReportingSummaryFinancialInformationByReportingSegmentDetail</Role>
+      <ShortName>Segment Reporting - Summary Financial Information by Reporting Segment (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>82</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R83.htm</HtmlFileName>
+      <LongName>100830 - Disclosure - Segment Reporting - Summary Financial Information by Reporting Segment (Parenthetical) (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureSegmentReportingSummaryFinancialInformationByReportingSegmentParentheticalDetail</Role>
+      <ShortName>Segment Reporting - Summary Financial Information by Reporting Segment (Parenthetical) (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>83</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R84.htm</HtmlFileName>
+      <LongName>100840 - Disclosure - Subsequent Events - Additional Information (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/DisclosureSubsequentEventsAdditionalInformationDetail</Role>
+      <ShortName>Subsequent Events - Additional Information (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>84</Position>
+    </Report>
+    <Report instance="prdo-20231231.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R85.htm</HtmlFileName>
+      <LongName>100850 - Disclosure - Schedule II - Valuation and Qualifying Accounts (Detail)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.perdoceoed.com/20231231/taxonomy/role/Role_DisclosureScheduleIIValuationAndQualifyingAccountsDetail</Role>
+      <ShortName>Schedule II - Valuation and Qualifying Accounts (Detail)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>85</Position>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>All Reports</LongName>
+      <ReportType>Book</ReportType>
+      <ShortName>All Reports</ShortName>
+    </Report>
+  </MyReports>
+  <InputFiles>
+    <File doctype="10-K" isDefinitelyFs="true" isUsgaap="true" original="prdo-20231231.htm">prdo-20231231.htm</File>
+    <File>prdo-20231231.xsd</File>
+  </InputFiles>
+  <SupplementalFiles>
+    <File>img151111038_0.jpg</File>
+  </SupplementalFiles>
+  <BaseTaxonomies>
+    <BaseTaxonomy items="1">http://fasb.org/srt/2023</BaseTaxonomy>
+    <BaseTaxonomy items="1099">http://fasb.org/us-gaap/2023</BaseTaxonomy>
+    <BaseTaxonomy items="40">http://xbrl.sec.gov/dei/2023</BaseTaxonomy>
+  </BaseTaxonomies>
+  <HasPresentationLinkbase>false</HasPresentationLinkbase>
+  <HasCalculationLinkbase>false</HasCalculationLinkbase>
+</FilingSummary>
